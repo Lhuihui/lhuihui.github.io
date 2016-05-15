@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jeffrey Albertson</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/heading.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="_demo--banner banner">
+    <div class="_demo--container">
+      <div class="banner--service-container">
+        <div class="banner--service-icon-container">
+          <img class="banner--service-icon" src="images/jeff-icon.png" alt="Jeff Icon">
+        </div>
+        <div class="banner--service-info">
+          <h1 class="banner--service-title base--h1">
+                        <img class="banner--service-icon_INLINE" src="images/jeff-icon.png" alt="Conversation Icon">
+                             Jeffrey "Jeff" Albertson
+                    </h1>
+          <div class="banner--service-description">
+            Jeff works with Watson to answer questions about IBMers, weather, and life. He also tells jokes.
+          </div>
+        </div>
+      </div>
+      <div class="banner--service-resource-container">
+        <div class="banner--row">
+          <div class="banner--service-resource">
+            <span class="icon icon-link"></span>
+            <strong>Resources:</strong>
+          </div>
+        </div>
+        <div class="banner--row">
+          <div class="banner--service-links">
+            <li class="base--li banner--service-link-item">
+              <a href="https://github.ibm.com/watson-developer-cloud/jeffrey-albertson" target="blank" class="base--a">Github</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jeff-quote">
+    <span class="jeff-quote--1">Best.</span><br>
+    <span class="jeff-quote--2">Chatbot.</span><br>
+    <span class="jeff-quote--3">Ever.</span>
+  </div>
+  <div class="parentDiv responsive-columns-wrapper" id="parent">
+    <div class="chat-column-holder responsive-column">
+      <div class="chat-column">
+        <div id="scrollingChat"></div>
+        <input id="input-message" class="input responsive-column" placeholder="Type or say something" type="text" onkeydown="inputKeyDown(event, this)">
+      </div>
+    </div>
+    <div class="payload-column fixed-column">
+      <div class="expand-arrow"></div>
+      <payload id="payload-response"></payload>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+</body>
+</html>
