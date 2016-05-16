@@ -12,7 +12,7 @@ var plumber = require('gulp-plumber');
 var onError = require('./on-error.js');
 
 // Paths
-var watchPath = paths.src_scripts + '/**/*.js';
+var watchPath = 'js/script.js';
 var destPath = paths.dest_scripts;
 
 gulp.task('scripts', function() {
@@ -20,7 +20,7 @@ gulp.task('scripts', function() {
     .pipe(plumber({
       errorHandler: onError
     }))
-    .pipe(concat('demo.js'))
+    .pipe(concat('script.js'))
     .pipe(gulp.dest(destPath));
 });
 

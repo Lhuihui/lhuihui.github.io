@@ -9,7 +9,8 @@ var gulp = require('gulp');
 var tasks = [
   'styles',
   'scripts',
-  'icon-fonts'
+  'icon-fonts',
+  'views'
 ];
 
 var watches = tasks.map(function(element) {
