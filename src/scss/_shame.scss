@@ -28,18 +28,6 @@
       @include divisions(4);
     }
 
-    &-1 {
-      background-color: color('orange', 50);
-    }
-    &-2 {
-      background-color: color('orange', 40);
-    }
-    &-3 {
-      background-color: color('orange', 30);
-    }
-    &-4 {
-      background-color: color('orange', 20);
-    }
   }
 
   img {

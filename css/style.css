@@ -685,6 +685,21 @@ body {
     margin-top: 0rem;
     margin-right: 2rem; }
 
+.pattern-library--cover-page {
+  cursor: pointer; }
+
+.pattern-library--blog-title {
+  background-color: #6eedd8;
+  color: #fff;
+  padding: 2rem;
+  cursor: pointer; }
+
+.pattern-library--blog {
+  padding: 2rem;
+  cursor: pointer; }
+  .pattern-library--blog:hover {
+    background-color: #e0e0e0; }
+
 ._app--header {
   margin-top: 0rem;
   position: fixed;
@@ -743,14 +758,6 @@ body {
       float: left; }
       .tile_quarter:nth-of-type(4n) {
         margin-right: 0rem; } }
-  .tile_quarter-1 {
-    background-color: #d74108; }
-  .tile_quarter-2 {
-    background-color: #ff5003; }
-  .tile_quarter-3 {
-    background-color: #ff7832; }
-  .tile_quarter-4 {
-    background-color: #ffa573; }
   .tile img {
     width: 100%;
     height: auto;

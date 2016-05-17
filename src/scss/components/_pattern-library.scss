@@ -1,0 +1,21 @@
+.pattern-library{
+  &--cover-page{
+    cursor: pointer;
+  }
+
+  &--blog-title{
+    background-color: color('teal', 20);
+    color: #fff;
+    padding: get('rhythm');
+    cursor: pointer;
+  }
+
+  &--blog{
+    padding: get('rhythm');
+    cursor: pointer;
+
+    &:hover{
+      background-color: color('gray', 10);
+    }
+  }
+}
