@@ -1,15 +1,30 @@
-.header{
-  &--wordmark-container {
-    width: 9rem;
-    float: left;
-    padding: get('rhythm') / 2;
+.header {
+  display: block;
+  height: 100%;
+
+  &--logo {
+    width: 7rem;
+    height: 100%;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
   }
 
-  &--menu{
-    float: right;
-    width: 3.5rem;
+  &--logo-image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: get('rhythm');
+    margin: auto;
+  }
+
+  &--menu {
     height: 100%;
+    width: 5rem;
     background-color: color('yellow', 20);
-    margin-top: 0em;
+    margin-top: 0rem;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
   }
 }

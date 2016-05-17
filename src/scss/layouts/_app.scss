@@ -1,16 +1,17 @@
-._app{
-  &--header{
+._app {
+  $header-height: 5rem;
+  &--header {
     margin-top: 0rem;
     position: fixed;
     top: 0rem;
-    height: 3.5rem;
+    height: $header-height;
     width: 100%;
     background-color: #fff;
+    display: block;
   }
 
-  &--content{
-    height: 40rem;
-    background-color: red;
-    margin-top: 0em;
+  &--content {
+    margin-top: $header-height;
+    display: block;
   }
 }
