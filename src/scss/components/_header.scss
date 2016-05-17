@@ -18,13 +18,38 @@
     margin: auto;
   }
 
+  $menu-width: 5rem;
+
   &--menu {
     height: 100%;
-    width: 5rem;
-    background-color: color('yellow', 20);
+    width: $menu-width;
     margin-top: 0rem;
     position: absolute;
     right: 0rem;
     top: 0rem;
+  }
+
+  &--menu-bar {
+    width: 20rem;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.3s;
+    background-color: color('yellow', 20);
+    cursor: pointer;
+
+    .js-menu-show & {
+      transform: translateX(-10rem);
+    }
+  }
+  &--menu-item {
+    width: $menu-width;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    margin-right: get('rhythm');
   }
 }
