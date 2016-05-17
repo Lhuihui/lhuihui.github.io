@@ -1,0 +1,16 @@
+._app{
+  &--header{
+    margin-top: 0rem;
+    position: fixed;
+    top: 0rem;
+    height: 3.5rem;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  &--content{
+    height: 40rem;
+    background-color: red;
+    margin-top: 0em;
+  }
+}

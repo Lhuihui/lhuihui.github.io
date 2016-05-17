@@ -16,8 +16,7 @@ var watchPath = 'index.html';
 var destPath = 'index.html';
 
 gulp.task('views', function() {
-  return gulp.src([watchPath])
-    .pipe(gulp.dest(destPath));
+  return gulp.src([watchPath]);
 });
 
 gulp.task('views:watch', ['views'], function() {
