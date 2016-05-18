@@ -700,6 +700,13 @@ body {
   .pattern-library--blog:hover {
     background-color: #e0e0e0; }
 
+.text-title {
+  padding: 2rem;
+  background-color: #fdfdfd;
+  cursor: pointer; }
+  .text-title:hover {
+    background-color: #e0e0e0; }
+
 ._app--header {
   margin-top: 0rem;
   position: fixed;
@@ -713,6 +720,9 @@ body {
 ._app--content {
   margin-top: 5rem;
   display: block; }
+
+.content {
+  margin-top: 0rem; }
 
 .tile {
   width: calc(100% - 0rem);
@@ -742,10 +752,6 @@ body {
       float: left; }
       .tile_half:nth-of-type(2n) {
         margin-right: 0rem; } }
-  .tile_half-1 {
-    background-color: #008571; }
-  .tile_half-2 {
-    background-color: #41d6c3; }
   @media (min-width: 640px) {
     .tile_quarter {
       width: auto;

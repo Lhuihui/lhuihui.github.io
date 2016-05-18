@@ -1,0 +1,9 @@
+.text-title{
+  padding: get('rhythm');
+  background-color: color('neutral-white', 10);
+  cursor: pointer;
+
+  &:hover{
+    background-color: color('gray', 10);
+  }
+}
