@@ -1,0 +1,46 @@
+
+.tile {
+  @include divisions(1);
+  margin-top: 0rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 20rem;
+
+  @include breakpoint(get('small')) {
+    min-height: initial;
+  }
+
+  &_full {
+    @include divisions(1);
+  }
+
+  &_half {
+    @include breakpoint(get('small')) {
+      @include divisions-reset;
+      @include divisions(2);
+    }
+  }
+
+  &_quarter {
+    @include breakpoint(get('small')) {
+      @include divisions-reset;
+      @include divisions(4);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &-img {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    min-height: initial;
+  }
+}
