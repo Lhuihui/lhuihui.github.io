@@ -703,7 +703,8 @@ body {
 .text-title {
   padding: 2rem;
   background-color: #fdfdfd;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 0rem; }
   .text-title:hover {
     background-color: #e0e0e0; }
 
@@ -723,6 +724,10 @@ body {
 
 .content {
   margin-top: 0rem; }
+  .content_wda {
+    cursor: pointer; }
+    .content_wda:hover {
+      background-color: #e0e0e0; }
 
 .tile {
   width: calc(100% - 0rem);

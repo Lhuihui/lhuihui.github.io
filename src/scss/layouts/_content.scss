@@ -2,6 +2,10 @@
   margin-top: 0rem;
 
   &_wda{
+    cursor: pointer;
     
+    &:hover{
+      background-color: color('gray', 10);
+    }
   }
 }
