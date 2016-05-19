@@ -685,8 +685,67 @@ body {
     margin-top: 0rem;
     margin-right: 2rem; }
 
+.tile {
+  width: calc(100% - 0rem);
+  margin-right: 0rem;
+  display: block;
+  float: left;
+  margin-top: 0rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 20rem; }
+  .tile:nth-of-type(1n) {
+    margin-right: 0rem; }
+  @media (min-width: 640px) {
+    .tile {
+      min-height: initial; } }
+  .tile_full {
+    width: calc(100% - 0rem);
+    margin-right: 0rem;
+    display: block;
+    float: left; }
+    .tile_full:nth-of-type(1n) {
+      margin-right: 0rem; }
+  @media (min-width: 640px) {
+    .tile_half {
+      width: auto;
+      margin-right: 0rem;
+      display: block;
+      float: none;
+      width: calc(50% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left; }
+      .tile_half:nth-of-type(2n) {
+        margin-right: 0rem; } }
+  @media (min-width: 640px) {
+    .tile_quarter {
+      width: auto;
+      margin-right: 0rem;
+      display: block;
+      float: none;
+      width: calc(25% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left; }
+      .tile_quarter:nth-of-type(4n) {
+        margin-right: 0rem; } }
+  .tile img {
+    width: 100%;
+    height: auto;
+    display: block; }
+  .tile-img {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    min-height: initial; }
+
 .pattern-library--cover-page {
-  cursor: pointer; }
+  cursor: pointer;
+  min-height: initial; }
 
 .pattern-library--blog-title {
   background-color: #6eedd8;
@@ -728,48 +787,3 @@ body {
     cursor: pointer; }
     .content_wda:hover {
       background-color: #e0e0e0; }
-
-.tile {
-  width: calc(100% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left;
-  margin-top: 0rem;
-  position: relative; }
-  .tile:nth-of-type(1n) {
-    margin-right: 0rem; }
-  .tile_full {
-    width: calc(100% - 0rem);
-    margin-right: 0rem;
-    display: block;
-    float: left; }
-    .tile_full:nth-of-type(1n) {
-      margin-right: 0rem; }
-  @media (min-width: 640px) {
-    .tile_half {
-      width: auto;
-      margin-right: 0rem;
-      display: block;
-      float: none;
-      width: calc(50% - 0rem);
-      margin-right: 0rem;
-      display: block;
-      float: left; }
-      .tile_half:nth-of-type(2n) {
-        margin-right: 0rem; } }
-  @media (min-width: 640px) {
-    .tile_quarter {
-      width: auto;
-      margin-right: 0rem;
-      display: block;
-      float: none;
-      width: calc(25% - 0rem);
-      margin-right: 0rem;
-      display: block;
-      float: left; }
-      .tile_quarter:nth-of-type(4n) {
-        margin-right: 0rem; } }
-  .tile img {
-    width: 100%;
-    height: auto;
-    display: block; }
