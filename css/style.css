@@ -740,7 +740,8 @@ body {
     left: -9999px;
     right: -9999px;
     bottom: -9999px;
-    margin: auto; }
+    margin: auto;
+    min-height: initial; }
 
 .pattern-library--cover-page {
   cursor: pointer;
@@ -761,7 +762,8 @@ body {
 .text-title {
   padding: 2rem;
   background-color: #fdfdfd;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 0rem; }
   .text-title:hover {
     background-color: #e0e0e0; }
 
@@ -781,3 +783,7 @@ body {
 
 .content {
   margin-top: 0rem; }
+  .content_wda {
+    cursor: pointer; }
+    .content_wda:hover {
+      background-color: #e0e0e0; }
