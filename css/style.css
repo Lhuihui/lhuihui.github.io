@@ -787,6 +787,8 @@ body {
 .content {
   margin-top: 0rem; }
   .content--link {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #121212;
+    text-decoration: none; }
     .content--link:hover {
       background-color: #e0e0e0; }

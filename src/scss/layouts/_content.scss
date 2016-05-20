@@ -3,6 +3,9 @@
 
   &--link{
     cursor: pointer;
+    color: color('gray', 90);
+    text-decoration: none;
+
     &:hover{
       background-color: color('gray', 10);
     }
