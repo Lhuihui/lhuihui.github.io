@@ -648,7 +648,7 @@ body {
     margin: auto; }
   .header--menu {
     height: 100%;
-    width: 5rem;
+    width: 4rem;
     margin-top: 0rem;
     position: absolute;
     right: 0rem;
@@ -671,7 +671,7 @@ body {
       -webkit-transform: translateX(-10rem);
               transform: translateX(-10rem); }
   .header--menu-item {
-    width: 5rem;
+    width: 4rem;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -767,23 +767,26 @@ body {
   .text-title:hover {
     background-color: #e0e0e0; }
 
+.portfolio--container {
+  padding: 2rem; }
+
 ._app--header {
   margin-top: 0rem;
   position: fixed;
   top: 0rem;
-  height: 5rem;
+  height: 4rem;
   width: 100%;
   background-color: #fff;
   display: block;
   z-index: 1000; }
 
 ._app--content {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: block; }
 
 .content {
   margin-top: 0rem; }
-  .content_wda {
+  .content--link {
     cursor: pointer; }
-    .content_wda:hover {
+    .content--link:hover {
       background-color: #e0e0e0; }

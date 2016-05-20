@@ -1,9 +1,8 @@
 .content {
   margin-top: 0rem;
 
-  &_wda{
+  &--link{
     cursor: pointer;
-    
     &:hover{
       background-color: color('gray', 10);
     }
