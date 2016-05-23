@@ -1,6 +1,37 @@
 .portfolio{
-  &--container{
-    padding: get('rhythm');
+
+  &--cover-page{
+    background-image: url('../images/portfolio/watson-pattern-library.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &--role{
+    @include divisions(6);
+
+    padding-top: get('rhythm') / 2;
+    padding-left: get('rhythm');
+  }
+
+  &--content{
+    @include divisions(3/2);
+  }
+
+  &--extra-link{
+    @include divisions(6);
+  }
+
+  &--title{
+    margin-top: get('rhythm') * 3;
+    margin-bottom: get('rhythm');
+  }
+
+  &--section-container{
+
+    &_FIRST{
+      margin-top: 0rem;
+    }
   }
 
 
