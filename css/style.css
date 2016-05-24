@@ -463,14 +463,14 @@ body {
 
 .base--button {
   padding: 0.5em 1em;
-  color: #d74108;
+  color: #325c80;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid #d74108;
+  border: 2px solid #5596e6;
   display: inline-block; }
   .base--button:hover, .base--button:focus {
     color: #fff;
-    background-color: #d74108; }
+    background-color: #5596e6; }
 
 .base--button_submit {
   padding: 0.5em 1em;
@@ -484,7 +484,7 @@ body {
     background-color: #325c80; }
   .base--button_submit:focus, .base--button_submit:hover {
     padding: 0.5em 1em;
-    color: #d74108;
+    color: #325c80;
     font-weight: bold;
     background-color: #264a60;
     border: 2px solid #264a60;
@@ -804,10 +804,34 @@ body {
   margin: 0 2rem; }
 
 .portfolio--service-intro {
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 0rem; }
 
 .portfolio--service-title {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-top: 0rem; }
+
+.portfolio--service-session {
+  width: calc(50% - 0.5rem);
+  margin-right: 1rem;
+  display: block;
+  float: left; }
+  .portfolio--service-session:nth-of-type(2n) {
+    margin-right: 0rem; }
+  .portfolio--service-session_NO_MARGIN {
+    margin-top: 0rem; }
+
+.portfolio--service-small-tile-container {
+  display: inline-block; }
+
+.portfolio--service-used {
+  margin-top: 4rem; }
+
+.portfolio--button-group {
+  margin-top: 4rem; }
+
+.portfolio--button {
+  text-decoration: none; }
 
 .cover-page_watson-platform {
   height: 16rem; }

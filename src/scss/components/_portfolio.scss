@@ -28,6 +28,8 @@
     &_FIRST{
       margin-top: 0rem;
     }
+
+
   }
 
   &--service-icon{
@@ -38,10 +40,36 @@
 
   &--service-intro{
     display: inline-block;
+    margin-top: 0rem;
   }
 
   &--service-title{
     font-weight: bold;
+    margin-top: 0rem;
+  }
+
+  &--service-session{
+    @include divisions(2, 1rem);
+
+    &_NO_MARGIN{
+      margin-top: 0rem;
+    }
+  }
+
+  &--service-small-tile-container{
+    display: inline-block;
+  }
+
+  &--service-used{
+    margin-top: get('rhythm') * 2;
+  }
+
+  &--button-group{
+    margin-top: get('rhythm') * 2;
+  }
+
+  &--button{
+    text-decoration: none;
   }
 
 
