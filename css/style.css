@@ -774,13 +774,13 @@ body {
   background-repeat: no-repeat; }
 
 .portfolio--role {
-  width: calc(16.66667% - 0rem);
+  width: calc(25% - 0rem);
   margin-right: 0rem;
   display: block;
   float: left;
   padding-top: 1rem;
   padding-left: 2rem; }
-  .portfolio--role:nth-of-type(6n) {
+  .portfolio--role:nth-of-type(4n) {
     margin-right: 0rem; }
 
 .portfolio--content {
@@ -791,20 +791,23 @@ body {
   .portfolio--content:nth-of-type(1.5n) {
     margin-right: 0rem; }
 
-.portfolio--extra-link {
-  width: calc(16.66667% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left; }
-  .portfolio--extra-link:nth-of-type(6n) {
-    margin-right: 0rem; }
-
 .portfolio--title {
   margin-top: 6rem;
   margin-bottom: 2rem; }
 
 .portfolio--section-container_FIRST {
   margin-top: 0rem; }
+
+.portfolio--service-icon {
+  width: 4rem;
+  display: inline-block;
+  margin: 0 2rem; }
+
+.portfolio--service-intro {
+  display: inline-block; }
+
+.portfolio--service-title {
+  font-weight: bold; }
 
 .cover-page_watson-platform {
   height: 16rem; }
@@ -820,7 +823,7 @@ body {
   z-index: 1000; }
 
 ._app--content {
-  margin-top: 4rem;
+  margin: 4rem 0;
   display: block; }
 
 .content {

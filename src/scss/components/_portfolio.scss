@@ -8,7 +8,7 @@
   }
 
   &--role{
-    @include divisions(6);
+    @include divisions(4);
 
     padding-top: get('rhythm') / 2;
     padding-left: get('rhythm');
@@ -16,10 +16,6 @@
 
   &--content{
     @include divisions(3/2);
-  }
-
-  &--extra-link{
-    @include divisions(6);
   }
 
   &--title{
@@ -32,6 +28,20 @@
     &_FIRST{
       margin-top: 0rem;
     }
+  }
+
+  &--service-icon{
+    width: 4rem;
+    display: inline-block;
+    margin: 0 get('rhythm');
+  }
+
+  &--service-intro{
+    display: inline-block;
+  }
+
+  &--service-title{
+    font-weight: bold;
   }
 
 
