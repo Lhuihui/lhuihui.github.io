@@ -1,0 +1,11 @@
+.example{
+  &--title{
+    font-size: ms(-1);
+    color: color('gray', 40);
+    font-weight: 500;
+  }
+
+  &--button{
+    text-decoration: none;
+  }
+}

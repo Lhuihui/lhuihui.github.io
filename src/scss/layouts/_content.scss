@@ -10,4 +10,8 @@
       background-color: color('gray', 10);
     }
   }
+
+  &--session-title{
+    margin: get('rhythm');
+  }
 }

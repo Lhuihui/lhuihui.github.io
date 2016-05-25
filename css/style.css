@@ -311,7 +311,7 @@ body {
   color: #464646; }
 
 .base--h3 {
-  font-size: 1.5625em;
+  font-size: 1.95312em;
   font-weight: 400;
   color: #323232; }
 
@@ -463,14 +463,14 @@ body {
 
 .base--button {
   padding: 0.5em 1em;
-  color: #325c80;
+  color: #006d5d;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid #5596e6;
+  border: 2px solid #41d6c3;
   display: inline-block; }
   .base--button:hover, .base--button:focus {
     color: #fff;
-    background-color: #5596e6; }
+    background-color: #41d6c3; }
 
 .base--button_submit {
   padding: 0.5em 1em;
@@ -484,7 +484,7 @@ body {
     background-color: #325c80; }
   .base--button_submit:focus, .base--button_submit:hover {
     padding: 0.5em 1em;
-    color: #325c80;
+    color: #006d5d;
     font-weight: bold;
     background-color: #264a60;
     border: 2px solid #264a60;
@@ -830,11 +830,69 @@ body {
 .portfolio--button-group {
   margin-top: 4rem; }
 
-.portfolio--button {
-  text-decoration: none; }
-
 .cover-page_watson-platform {
   height: 16rem; }
+
+.demo-app--title {
+  font-size: 2.44141em;
+  font-weight: 500; }
+
+.demo-app--hr {
+  width: calc(25% - 0rem);
+  margin-right: 0rem;
+  display: block;
+  float: left;
+  border-top: 0.3rem solid #41d6c3; }
+  .demo-app--hr:nth-of-type(4n) {
+    margin-right: 0rem; }
+
+.demo-app--des {
+  width: calc(50% - 0rem);
+  margin-right: 0rem;
+  display: block;
+  float: left; }
+  .demo-app--des:nth-of-type(2n) {
+    margin-right: 0rem; }
+
+.demo-app--example {
+  width: calc(50% - 0rem);
+  margin-right: 0rem;
+  display: block;
+  float: left;
+  padding-left: 2rem; }
+  .demo-app--example:nth-of-type(2n) {
+    margin-right: 0rem; }
+
+.demo-app--sub-title {
+  font-weight: 500;
+  color: #006d5d;
+  margin-top: 2rem; }
+
+.service-tile {
+  position: relative; }
+  .service-tile--icon-container {
+    padding-right: 2rem;
+    position: absolute; }
+  .service-tile--icon {
+    width: 4rem; }
+  .service-tile--intro {
+    margin-left: 6rem;
+    margin-top: 0rem; }
+  .service-tile--title {
+    font-weight: 500; }
+  .service-tile--des {
+    font-size: 0.8em;
+    margin-top: 0.5rem; }
+
+.example--title {
+  font-size: 0.8em;
+  color: #959595;
+  font-weight: 500; }
+
+.example--button {
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem auto; }
 
 ._app--header {
   margin-top: 0rem;
@@ -858,3 +916,5 @@ body {
     text-decoration: none; }
     .content--link:hover {
       background-color: #e0e0e0; }
+  .content--session-title {
+    margin: 2rem; }

@@ -1,0 +1,26 @@
+.service-tile{
+  position: relative;
+
+  &--icon-container{
+    padding-right: get('rhythm');
+    position: absolute;
+  }
+
+  &--icon{
+    width: 4rem;
+  }
+
+  &--intro{
+    margin-left: 6rem;
+    margin-top: 0rem;
+  }
+
+  &--title{
+    font-weight: 500;
+  }
+
+  &--des{
+    font-size: ms(-1);
+    margin-top: get('rhythm') / 4;
+  }
+}

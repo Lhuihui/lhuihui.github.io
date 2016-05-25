@@ -1,0 +1,27 @@
+.demo-app{
+  &--title{
+    font-size: ms(7);
+    font-weight: 500;
+  }
+
+  &--hr{
+    @include divisions(4);
+    border-top: 0.3rem solid color('teal', 30);
+  }
+
+  &--des{
+    @include divisions(2);
+  }
+
+  &--example{
+    @include divisions(2);
+    padding-left: get('rhythm');
+  }
+
+  &--sub-title{
+    font-weight: 500;
+    color: color('teal', 60);
+    margin-top: get('rhythm');
+
+  }
+}
