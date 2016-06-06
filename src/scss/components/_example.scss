@@ -8,4 +8,12 @@
   &--button{
     text-decoration: none;
   }
+
+  &--button-left{
+    float: left;
+  }
+
+  &--button-right{
+    float: right;
+  }
 }

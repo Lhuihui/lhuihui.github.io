@@ -8,14 +8,35 @@
   }
 
   &--role{
-    @include divisions(4);
+    display: none;
 
-    padding-top: get('rhythm') / 2;
-    padding-left: get('rhythm');
+    @include breakpoint(850px){
+
+      display: block;
+      @include divisions(4);
+
+      padding-top: get('rhythm') / 2;
+      padding-left: get('rhythm');
+      margin-top: 7rem;
+    };
+  }
+
+  &--demo-app{
+    padding-top: get('rhythm') * 2;
+  }
+
+  &--content-role{
+    margin-top: get('rhythm');
+    @include breakpoint(850px){
+      display: none;
+    }
   }
 
   &--content{
-    @include divisions(3/2);
+    padding: 0 get('rhythm');
+    @include breakpoint(850px){
+      @include divisions(3/2);
+    }
   }
 
   &--title{
@@ -28,7 +49,6 @@
     &_FIRST{
       margin-top: 0rem;
     }
-
 
   }
 
@@ -68,7 +88,7 @@
     margin-top: get('rhythm') * 2;
   }
 
-  
+
 
 
 }

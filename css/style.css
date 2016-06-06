@@ -774,22 +774,39 @@ body {
   background-repeat: no-repeat; }
 
 .portfolio--role {
-  width: calc(25% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left;
-  padding-top: 1rem;
-  padding-left: 2rem; }
-  .portfolio--role:nth-of-type(4n) {
-    margin-right: 0rem; }
+  display: none; }
+  @media (min-width: 850px) {
+    .portfolio--role {
+      display: block;
+      width: calc(25% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      margin-top: 7rem; }
+      .portfolio--role:nth-of-type(4n) {
+        margin-right: 0rem; } }
+
+.portfolio--demo-app {
+  padding-top: 4rem; }
+
+.portfolio--content-role {
+  margin-top: 2rem; }
+  @media (min-width: 850px) {
+    .portfolio--content-role {
+      display: none; } }
 
 .portfolio--content {
-  width: calc(66.66667% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left; }
-  .portfolio--content:nth-of-type(1.5n) {
-    margin-right: 0rem; }
+  padding: 0 2rem; }
+  @media (min-width: 850px) {
+    .portfolio--content {
+      width: calc(66.66667% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left; }
+      .portfolio--content:nth-of-type(1.5n) {
+        margin-right: 0rem; } }
 
 .portfolio--title {
   margin-top: 6rem;
@@ -837,6 +854,15 @@ body {
   font-size: 2.44141em;
   font-weight: 500; }
 
+.demo-app--title-text {
+  font-size: 2.44141em;
+  font-weight: 500;
+  float: left;
+  color: #121212; }
+
+.demo-app--example-link {
+  float: right; }
+
 .demo-app--hr {
   width: calc(25% - 0rem);
   margin-right: 0rem;
@@ -846,27 +872,75 @@ body {
   .demo-app--hr:nth-of-type(4n) {
     margin-right: 0rem; }
 
-.demo-app--des {
-  width: calc(50% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left; }
-  .demo-app--des:nth-of-type(2n) {
-    margin-right: 0rem; }
+@media (min-width: 750px) {
+  .demo-app--des {
+    width: calc(50% - 0rem);
+    margin-right: 0rem;
+    display: block;
+    float: left; }
+    .demo-app--des:nth-of-type(2n) {
+      margin-right: 0rem; } }
 
-.demo-app--example {
-  width: calc(50% - 0rem);
-  margin-right: 0rem;
-  display: block;
-  float: left;
-  padding-left: 2rem; }
-  .demo-app--example:nth-of-type(2n) {
-    margin-right: 0rem; }
+@media (min-width: 750px) {
+  .demo-app--example {
+    width: calc(50% - 0rem);
+    margin-right: 0rem;
+    display: block;
+    float: left;
+    padding-left: 2rem; }
+    .demo-app--example:nth-of-type(2n) {
+      margin-right: 0rem; } }
 
 .demo-app--sub-title {
   font-weight: 500;
   color: #006d5d;
   margin-top: 2rem; }
+
+.demo-app--screen-shot-small {
+  max-width: 15rem;
+  margin: 1rem auto; }
+  @media (min-width: 600px) {
+    .demo-app--screen-shot-small {
+      width: calc(50% - 0.5rem);
+      margin-right: 1rem;
+      display: block;
+      float: left;
+      max-width: 50rem; }
+      .demo-app--screen-shot-small:nth-of-type(2n) {
+        margin-right: 0rem; } }
+  @media (min-width: 1000px) {
+    .demo-app--screen-shot-small {
+      width: calc(25% - 0.75rem);
+      margin-right: 1rem;
+      display: block;
+      float: left; }
+      .demo-app--screen-shot-small:nth-of-type(4n) {
+        margin-right: 0rem; }
+      .demo-app--screen-shot-small:nth-child(3) {
+        margin-left: 1rem; } }
+
+.demo-app--screenshot-container {
+  margin: 1rem auto;
+  box-shadow: 6px 6px 55px -15px rgba(0, 0, 0, 0.68); }
+  @media (min-width: 650px) {
+    .demo-app--screenshot-container {
+      width: calc(50% - 0.5rem);
+      margin-right: 1rem;
+      display: block;
+      float: left; }
+      .demo-app--screenshot-container:nth-of-type(2n) {
+        margin-right: 0rem; } }
+
+.demo-app--screenshot-big-container {
+  float: left;
+  margin: 1rem auto;
+  box-shadow: 6px 6px 55px -15px rgba(0, 0, 0, 0.68); }
+
+.demo-app--screen-shot {
+  box-shadow: 6px 6px 55px -15px rgba(0, 0, 0, 0.68); }
+
+.demo-app--img {
+  display: block; }
 
 .service-tile {
   position: relative; }
@@ -890,9 +964,13 @@ body {
   font-weight: 500; }
 
 .example--button {
-  text-decoration: none;
-  display: inline-block;
-  margin: 1rem auto; }
+  text-decoration: none; }
+
+.example--button-left {
+  float: left; }
+
+.example--button-right {
+  float: right; }
 
 ._app--header {
   margin-top: 0rem;
