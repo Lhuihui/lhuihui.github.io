@@ -51,7 +51,7 @@
     @include breakpoint(600px){
       @include divisions(2, 1rem);
       max-width: 50rem;
-    };
+    }
 
     @include breakpoint(1000px){
       @include divisions(4, 1rem);
@@ -59,7 +59,18 @@
       &:nth-child(3){
         margin-left: get('rhythm') / 2;
       }
-    };
+    }
+
+  }
+
+  &--screen-shot-small-3{
+    max-width: 15rem;
+    margin: get('rhythm')/2 auto;
+
+    @include breakpoint(600px){
+      @include divisions(3, 1rem);
+      max-width: 50rem;
+    }
 
   }
 
@@ -83,6 +94,12 @@
     -moz-box-shadow: 6px 6px 55px -15px rgba(0,0,0,0.68);
     box-shadow: 6px 6px 55px -15px rgba(0,0,0,0.68);
 
+  }
+
+  &--screenshot-small-container{
+    @include breakpoint(650px){
+      @include divisions(3, 1rem);
+    }
   }
 
   &--screen-shot{
