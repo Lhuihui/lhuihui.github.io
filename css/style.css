@@ -994,6 +994,11 @@ body {
 
 .example--button {
   text-decoration: none; }
+  .example--button_RED {
+    color: #ad1625;
+    border: 2px solid #ff7d87; }
+    .example--button_RED:hover, .example--button_RED:focus {
+      background-color: #ff7d87; }
 
 .example--button-left {
   float: left; }
