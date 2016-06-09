@@ -999,6 +999,11 @@ body {
     border: 2px solid #ff7d87; }
     .example--button_RED:hover, .example--button_RED:focus {
       background-color: #ff7d87; }
+  .example--button_BLUE {
+    color: #325c80;
+    border: 2px solid #5aaafa; }
+    .example--button_BLUE:hover, .example--button_BLUE:focus {
+      background-color: #5aaafa; }
 
 .example--button-left {
   float: left; }

@@ -17,6 +17,16 @@
         background-color: color('red', 30);
       }
     }
+
+    &_BLUE{
+      color: color('blue', 60);
+      border: 2px solid color('blue', 30);
+
+      &:hover,
+      &:focus {
+        background-color: color('blue', 30);
+      }
+    }
   }
 
   &--button-left{
