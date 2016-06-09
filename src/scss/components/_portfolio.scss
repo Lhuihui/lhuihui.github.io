@@ -21,6 +21,14 @@
     };
   }
 
+  &--role-title{
+    margin-top: get('rhythm');
+  }
+
+  &--role-des{
+    margin-top: get('rhythm') / 8;
+  }
+
   &--demo-app{
     padding-top: get('rhythm') * 2;
   }

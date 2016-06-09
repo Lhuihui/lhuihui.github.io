@@ -37,12 +37,12 @@
   &--sub-title{
     font-weight: 500;
     color: color('teal', 60);
-    margin-top: get('rhythm');
+
+    &_WITH_MARGIN{
+      margin-top: get('rhythm');
+    }
   }
 
-  &--screen-shot-session{
-    // padding: 0 get('rhythm') / 2;
-  }
 
   &--screen-shot-small{
     max-width: 15rem;

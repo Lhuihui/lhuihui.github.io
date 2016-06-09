@@ -788,6 +788,12 @@ body {
       .portfolio--role:nth-of-type(4n) {
         margin-right: 0rem; } }
 
+.portfolio--role-title {
+  margin-top: 2rem; }
+
+.portfolio--role-des {
+  margin-top: 0.25rem; }
+
 .portfolio--demo-app {
   padding-top: 4rem; }
 
@@ -893,8 +899,9 @@ body {
 
 .demo-app--sub-title {
   font-weight: 500;
-  color: #006d5d;
-  margin-top: 2rem; }
+  color: #006d5d; }
+  .demo-app--sub-title_WITH_MARGIN {
+    margin-top: 2rem; }
 
 .demo-app--screen-shot-small {
   max-width: 15rem;
