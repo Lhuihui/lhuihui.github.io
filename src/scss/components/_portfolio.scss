@@ -29,10 +29,6 @@
     margin-top: get('rhythm') / 8;
   }
 
-  &--demo-app{
-    padding-top: get('rhythm') * 2;
-  }
-
   &--content-role{
     margin-top: get('rhythm');
     @include breakpoint(850px){
