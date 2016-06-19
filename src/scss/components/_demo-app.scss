@@ -97,6 +97,8 @@
   }
 
   &--screenshot-small-container{
+    margin-top: 0;
+    
     @include breakpoint(650px){
       @include divisions(3, 1rem);
     }

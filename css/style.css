@@ -953,14 +953,16 @@ body {
   margin: 1rem auto;
   box-shadow: 6px 6px 55px -15px rgba(0, 0, 0, 0.68); }
 
-@media (min-width: 650px) {
-  .demo-app--screenshot-small-container {
-    width: calc(33.33333% - 0.66667rem);
-    margin-right: 1rem;
-    display: block;
-    float: left; }
-    .demo-app--screenshot-small-container:nth-of-type(3n) {
-      margin-right: 0rem; } }
+.demo-app--screenshot-small-container {
+  margin-top: 0; }
+  @media (min-width: 650px) {
+    .demo-app--screenshot-small-container {
+      width: calc(33.33333% - 0.66667rem);
+      margin-right: 1rem;
+      display: block;
+      float: left; }
+      .demo-app--screenshot-small-container:nth-of-type(3n) {
+        margin-right: 0rem; } }
 
 .demo-app--screen-shot {
   box-shadow: 6px 6px 55px -15px rgba(0, 0, 0, 0.68); }
