@@ -98,9 +98,13 @@
 
   &--screenshot-small-container{
     margin-top: 0;
-    
+
     @include breakpoint(650px){
       @include divisions(3, 1rem);
+    }
+
+    &_WITH_MARGIN{
+      margin-top: get('rhythm') / 2;
     }
   }
 
@@ -108,6 +112,10 @@
     -webkit-box-shadow: 6px 6px 55px -15px rgba(0,0,0,0.68);
     -moz-box-shadow: 6px 6px 55px -15px rgba(0,0,0,0.68);
     box-shadow: 6px 6px 55px -15px rgba(0,0,0,0.68);
+
+    &_INLINE{
+      display: inline-block;
+    }
   }
 
   &--img{
