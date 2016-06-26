@@ -15,4 +15,9 @@
     margin: $header-height 0;
     display: block;
   }
+
+  &--index-content{
+    margin-top: $header-height;
+    display: block;
+  }
 }

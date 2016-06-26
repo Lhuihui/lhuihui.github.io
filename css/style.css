@@ -767,6 +767,9 @@ body {
   .text-title:hover {
     background-color: #e0e0e0; }
 
+.portfolio--a {
+  color: #41d6c3; }
+
 .portfolio--cover-page {
   background-image: url("../images/portfolio/watson-pattern-library.jpg");
   background-size: cover;
@@ -786,6 +789,20 @@ body {
       padding-left: 2rem;
       margin-top: 7rem; }
       .portfolio--role:nth-of-type(4n) {
+        margin-right: 0rem; } }
+
+.portfolio--platform-role {
+  display: none; }
+  @media (min-width: 850px) {
+    .portfolio--platform-role {
+      display: block;
+      width: calc(25% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left;
+      padding-top: 1rem;
+      padding-left: 2rem; }
+      .portfolio--platform-role:nth-of-type(4n) {
         margin-right: 0rem; } }
 
 .portfolio--role-title {
@@ -1026,6 +1043,10 @@ body {
 
 ._app--content {
   margin: 4rem 0;
+  display: block; }
+
+._app--index-content {
+  margin-top: 4rem;
   display: block; }
 
 .content {

@@ -1,5 +1,9 @@
 .portfolio{
 
+  &--a{
+    color: #41d6c3;
+  }
+
   &--cover-page{
     background-image: url('../images/portfolio/watson-pattern-library.jpg');
     background-size: cover;
@@ -18,6 +22,18 @@
       padding-top: get('rhythm') / 2;
       padding-left: get('rhythm');
       margin-top: 7rem;
+    };
+  }
+
+  &--platform-role{
+    display: none;
+
+    @include breakpoint(850px){
+
+      display: block;
+      @include divisions(4);
+      padding-top: get('rhythm') / 2;
+      padding-left: get('rhythm');
     };
   }
 
