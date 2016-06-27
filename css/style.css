@@ -686,6 +686,8 @@ body {
     margin-right: 2rem; }
 
 .tile {
+  min-height: auto;
+  height: auto;
   width: calc(100% - 0rem);
   margin-right: 0rem;
   display: block;
@@ -763,7 +765,8 @@ body {
   padding: 2rem;
   background-color: #fdfdfd;
   cursor: pointer;
-  margin-top: 0rem; }
+  margin-top: 0rem;
+  min-height: auto; }
   .text-title:hover {
     background-color: #e0e0e0; }
 

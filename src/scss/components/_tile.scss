@@ -1,5 +1,8 @@
 
 .tile {
+  min-height: auto;
+  height: auto;
+  
   @include divisions(1);
   margin-top: 0rem;
   position: relative;

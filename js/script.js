@@ -60,7 +60,12 @@ $(document).ready(function() {
   var heights = new HeightCalculator();
 
   function rectanglify(DOMElement, height) {
-    $(DOMElement).css('height', height + 'px');
+    if(window.innerWidth < 640){
+      $(DOMElement).css('height', '100%');
+      $(DOMElement).css('min-height', 'auto');
+    }
+    else
+      $(DOMElement).css('height', height + 'px');
   }
 
   function updateRectangles(className) {
