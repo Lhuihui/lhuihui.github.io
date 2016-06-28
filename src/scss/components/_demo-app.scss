@@ -121,4 +121,9 @@
   &--img{
     display: block;
   }
+
+  &--screen-shot-medium{
+    margin-top: 0;
+    @include divisions(2, 1rem);
+  }
 }

@@ -994,6 +994,15 @@ body {
 .demo-app--img {
   display: block; }
 
+.demo-app--screen-shot-medium {
+  margin-top: 0;
+  width: calc(50% - 0.5rem);
+  margin-right: 1rem;
+  display: block;
+  float: left; }
+  .demo-app--screen-shot-medium:nth-of-type(2n) {
+    margin-right: 0rem; }
+
 .service-tile {
   position: relative; }
   .service-tile--icon-container {
@@ -1022,6 +1031,11 @@ body {
     border: 2px solid #ff7d87; }
     .example--button_RED:hover, .example--button_RED:focus {
       background-color: #ff7d87; }
+  .example--button_PURPLE {
+    color: #734098;
+    border: 2px solid #ba8ff7; }
+    .example--button_PURPLE:hover, .example--button_PURPLE:focus {
+      background-color: #ba8ff7; }
   .example--button_BLUE {
     color: #325c80;
     border: 2px solid #5aaafa; }

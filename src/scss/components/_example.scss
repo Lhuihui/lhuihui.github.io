@@ -18,6 +18,16 @@
       }
     }
 
+    &_PURPLE{
+      color: color('purple', 60);
+      border: 2px solid color('purple', 30);
+
+      &:hover,
+      &:focus {
+        background-color: color('purple', 30);
+      }
+    }
+
     &_BLUE{
       color: color('blue', 60);
       border: 2px solid color('blue', 30);
