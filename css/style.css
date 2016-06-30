@@ -994,14 +994,15 @@ body {
 .demo-app--img {
   display: block; }
 
-.demo-app--screen-shot-medium {
-  margin-top: 0;
-  width: calc(50% - 0.5rem);
-  margin-right: 1rem;
-  display: block;
-  float: left; }
-  .demo-app--screen-shot-medium:nth-of-type(2n) {
-    margin-right: 0rem; }
+@media (min-width: 600px) {
+  .demo-app--screen-shot-medium {
+    margin-top: 0;
+    width: calc(50% - 0.5rem);
+    margin-right: 1rem;
+    display: block;
+    float: left; }
+    .demo-app--screen-shot-medium:nth-of-type(2n) {
+      margin-right: 0rem; } }
 
 .service-tile {
   position: relative; }
