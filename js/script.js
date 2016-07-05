@@ -1,12 +1,18 @@
 $(document).ready(function() {
 
   var HeightCalculator = function() {
-    var height_100 = window.innerWidth;
+    if(window.innerWidth < document.documentElement.clientWidth)
+      var height_100 = window.innerWidth;
+    else
+      var height_100 = document.documentElement.clientWidth;
     var height_50 = height_100 / 2;
     var height_25 = height_100 / 4;
 
     function updateWidths() {
-      height_100 = window.innerWidth;
+      if(window.innerWidth < document.documentElement.clientWidth)
+        var height_100 = window.innerWidth;
+      else
+        var height_100 = document.documentElement.clientWidth;
       height_50 = height_100 / 2;
       height_25 = height_100 / 4;
     }
