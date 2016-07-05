@@ -37,6 +37,16 @@
         background-color: color('blue', 30);
       }
     }
+
+    &_GREEN{
+      color: color('green', 60);
+      border: 2px solid color('green', 30);
+
+      &:hover,
+      &:focus {
+        background-color: color('green', 30);
+      }
+    }
   }
 
   &--button-left{

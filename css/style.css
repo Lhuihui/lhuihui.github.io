@@ -1042,6 +1042,11 @@ body {
     border: 2px solid #5aaafa; }
     .example--button_BLUE:hover, .example--button_BLUE:focus {
       background-color: #5aaafa; }
+  .example--button_GREEN {
+    color: #2d660a;
+    border: 2px solid #8cd211; }
+    .example--button_GREEN:hover, .example--button_GREEN:focus {
+      background-color: #8cd211; }
 
 .example--button-left {
   float: left; }
