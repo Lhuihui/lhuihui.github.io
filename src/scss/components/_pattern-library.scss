@@ -9,11 +9,13 @@
     color: #fff;
     padding: get('rhythm');
     cursor: pointer;
+    font-weight: get('semi bold weight font');
   }
 
   &--blog{
     padding: get('rhythm');
     cursor: pointer;
+    font-weight: get('semi bold weight font');
 
     &:hover{
       background-color: color('gray', 10);

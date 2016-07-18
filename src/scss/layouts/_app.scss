@@ -20,4 +20,16 @@
     margin-top: $header-height;
     display: block;
   }
+
+  &--personal-des{
+    margin: get('rhythm')*2.5 get('rhythm') get('rhythm')*3.5;
+  }
+
+  &--personal-des-text{
+    font-weight: get('bold weight font');
+    margin-top: 0;
+    font-size: ms(5);
+    line-height: 1.3;
+    color: color('gray', 90);
+  }
 }

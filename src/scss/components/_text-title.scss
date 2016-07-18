@@ -4,6 +4,7 @@
   cursor: pointer;
   margin-top: 0rem;
   min-height: auto;
+  font-weight: get('semi bold weight font');
 
   &:hover{
     background-color: color('gray', 10);
