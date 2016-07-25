@@ -12,7 +12,7 @@
   }
 
   &--session-title{
-    margin: get('rhythm');
+    margin: get('rhythm') 0;
     font-weight: get('semi bold weight font');
   }
 }

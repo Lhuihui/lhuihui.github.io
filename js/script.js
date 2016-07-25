@@ -1,20 +1,35 @@
 $(document).ready(function() {
 
   var HeightCalculator = function() {
-    if(window.innerWidth < document.documentElement.clientWidth)
-      var height_100 = window.innerWidth;
-    else
-      var height_100 = document.documentElement.clientWidth;
-    var height_50 = height_100 / 2;
-    var height_25 = height_100 / 4;
-
-    function updateWidths() {
+    if(window.innerWidth < 640 || document.documentElement.clientWidth < 640){
       if(window.innerWidth < document.documentElement.clientWidth)
         var height_100 = window.innerWidth;
       else
         var height_100 = document.documentElement.clientWidth;
-      height_50 = height_100 / 2;
-      height_25 = height_100 / 4;
+      var height_50 = height_100 / 2;
+      var height_25 = height_100 / 4;
+    }
+    else{
+      var height_100 = $('._app--container').css('height');
+      var height_50 = height_100 / 2;
+      var height_25 = height_100 / 4;
+    }
+
+    function updateWidths() {
+      if(window.innerWidth < 640 || document.documentElement.clientWidth < 640){
+        if(window.innerWidth < document.documentElement.clientWidth)
+          var height_100 = window.innerWidth;
+        else
+          var height_100 = document.documentElement.clientWidth;
+        var height_50 = height_100 / 2;
+        var height_25 = height_100 / 4;
+      }
+      else{
+        var height_100 = $('._app--container').css('height');
+        var height_50 = height_100 / 2;
+        var height_25 = height_100 / 4;
+      }
+
     }
 
     function getHeight(num) {

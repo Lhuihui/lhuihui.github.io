@@ -16,6 +16,32 @@
     bottom: -9999px;
     left: get('rhythm');
     margin: auto;
+
+    @include breakpoint(get('small')){
+      left: 0em;
+    };
+  }
+
+  &--nav{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    font-weight: get('semi bold weight font');
+    color: color('gray', 60);
+
+    @include breakpoint(get('small')){
+      margin-right: 4rem;
+    };
+  }
+
+  &--link{
+    color: color('gray', 60);
+    text-decoration: none;
+
+    &:hover{
+      color: color('gray', 60);
+      text-decoration: none;
+    }
   }
 
   $menu-width: 4rem;
