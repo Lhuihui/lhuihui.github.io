@@ -16,6 +16,14 @@
     bottom: -9999px;
     left: get('rhythm');
     margin: auto;
+  }
+
+  &--logo-index-image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: get('rhythm');
+    margin: auto;
 
     @include breakpoint(get('small')){
       left: 0em;

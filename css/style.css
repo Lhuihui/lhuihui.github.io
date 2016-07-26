@@ -647,8 +647,14 @@ body {
     bottom: -9999px;
     left: 2rem;
     margin: auto; }
+  .header--logo-index-image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: 2rem;
+    margin: auto; }
     @media (min-width: 640px) {
-      .header--logo-image {
+      .header--logo-index-image {
         left: 0em; } }
   .header--nav {
     float: right;
