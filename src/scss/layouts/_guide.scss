@@ -1,0 +1,114 @@
+._guide{
+  $header-height: 4rem;
+
+  &--new-layout-content{
+    margin: $header-height 0;
+    padding: get('rhythm') get('rhythm') / 2;
+
+    @include breakpoint(768px){
+			padding: get('rhythm') * 2 get('rhythm');
+		}
+
+		@include breakpoint(1200px){
+			width: 1200px;
+			margin: $header-height auto 0;
+		}
+  }
+
+  &--header{
+    margin-top: 0rem;
+    top: 0rem;
+    height: $header-height;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    padding: 0 get('rhythm') / 2;
+
+    @include breakpoint(768px){
+			padding: 0 get('rhythm');
+		}
+
+		@include breakpoint(1200px){
+			width: 1200px;
+      margin: 0 auto;
+		}
+  }
+
+  &--logo {
+    width: 7rem;
+    height: 100%;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+  }
+
+  &--logo-image {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    margin: auto;
+  }
+
+  &--nav{
+    position: absolute;
+    font-weight: get('semi bold weight font');
+    color: color('gray', 60);
+    right: get('rhythm') / 2;
+    top: 1.3rem;
+
+    @include breakpoint(768px){
+      right: get('rhythm');
+    };
+  }
+
+
+  &--page-title{
+    font-size: ms(2);
+    font-weight: 400;
+    color: color('teal', 40);
+
+
+    @include breakpoint(750px){
+      font-size: ms(3);
+    };
+  }
+
+  &--cover-img{
+    width: 100%;
+  }
+
+  &--content-container{
+    border-left: 0.3rem solid color('teal', 40);
+    padding-left: get('rhythm');
+    margin-top: get('rhythm');
+  }
+
+  &--content-title{
+    color: color('gray', 40);
+    font-size: ms(0);
+    font-weight: 400;
+  }
+
+  &--content-link{
+    color: color('teal', 40);
+    font-size: ms(1);
+    font-weight: 400;
+    margin-top: get('rhythm') / 3;
+  }
+
+  &--content-link-a{
+    text-decoration: none;
+  }
+
+  &--content-session-container{
+    margin-top: get('rhythm') * 3;
+    font-size: ms(2);
+    color: color('teal', 40);
+    font-weight: 400;
+  }
+
+
+
+}
