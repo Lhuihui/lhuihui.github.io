@@ -1126,8 +1126,11 @@ body {
     .content--link:hover {
       background-color: #e0e0e0; }
   .content--session-title {
-    margin: 2rem 0;
-    font-weight: 600; }
+    margin: 4rem 0 0;
+    font-weight: 600;
+    color: #959595; }
+  .content--hr {
+    margin-top: 0; }
 
 ._guide--new-layout-content {
   margin: 4rem 0;
