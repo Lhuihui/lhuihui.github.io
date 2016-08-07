@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,300italic,400italic,600,600italic,700,700italic,800italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" media="screen" charset="utf-8">
     <link rel="shortcut icon" href="images/favicon.png" />
-    <title>Mobile First Network Visualization</title>
+    <title>Responsive Network Visualization Design Guideline</title>
   </head>
   <body>
     <div class="_app--header">
@@ -59,10 +59,21 @@
               Interaction Guide
             </div>
           </a>
+          <a href="#NV-design-process" class="_guide--content-link-a">
+            <div class="_guide--content-link">
+              My Design Process
+            </div>
+          </a>
+          <a href="#NV-takeaway" class="_guide--content-link-a">
+            <div id="NV-MVP" class="_guide--content-link">
+              My Takeaway
+            </div>
+          </a>
         </div>
       </div>
+
       <div class="_guide--content-session-container">
-        <div id="NV-MVP" class="_guide--content-session-title">
+        <div class="_guide--content-session-title">
           MVP in an interactive network visualization
         </div>
         <div class="_guide--text">
@@ -76,11 +87,11 @@
           <li class="_guide--list-item">A way for users to investigate the relationships between nodes</li>
           <li class="_guide--list-item">Ways for users to investigate the network - expand, collapse the network</li>
         </div>
-        <hr class="_guide--hr base--hr">
       </div>
 
       <div class="_guide--content-session-container">
-        <div id="NV-design-assumptions" class="_guide--content-session-title">
+        <hr id="NV-design-assumptions" class="_guide--hr base--hr">
+        <div class="_guide--content-session-title">
           Design Assumptions
         </div>
 
@@ -157,12 +168,11 @@
             </div>
           </div>
         </div>
-
-        <hr class="_guide--hr base--hr">
       </div>
 
       <div class="_guide--content-session-container">
-        <div id="NV-style-guide" class="_guide--content-session-title">
+        <hr id="NV-style-guide" class="_guide--hr base--hr">
+        <div class="_guide--content-session-title">
           Style Guide
         </div>
 
@@ -175,15 +185,13 @@
               These colors are designed for high contrast.
             </div>
           </div>
-          <div class="_guide--grid-two">
+          <div class="_guide--grid-two-of-two">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/style-guide-light-ui.jpg" alt="" />
             </div>
             <div class="_guide--explain-txt">
               Light UI
             </div>
-          </div>
-          <div class="_guide--grid-three">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/style-guide-dark-ui.jpg" alt="" />
             </div>
@@ -202,23 +210,20 @@
               An auxiliary set of icons can be enabled to more easily distinguish node types.
             </div>
           </div>
-          <div class="_guide--grid-two">
+          <div class="_guide--grid-two-of-two">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/assessbility-symbol.jpg" alt="" />
             </div>
-          </div>
-          <div class="_guide--grid-three">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/assessbility-example.jpg" alt="" />
             </div>
           </div>
         </div>
-
-        <hr class="_guide--hr base--hr">
       </div>
 
       <div class="_guide--content-session-container">
-        <div id="NV-interaction-guide" class="_guide--content-session-title">
+        <hr id="NV-interaction-guide" class="_guide--hr base--hr">
+        <div class="_guide--content-session-title">
           Interaction Guide
         </div>
 
@@ -231,12 +236,10 @@
               Left click/tap a node to see information about the node.
             </div>
           </div>
-          <div class="_guide--grid-two">
+          <div class="_guide--grid-two-of-two">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/interaction-click-node-mobile.jpg" alt="" />
             </div>
-          </div>
-          <div class="_guide--grid-three">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/interaction-click-node-desktop.jpg" alt="" />
             </div>
@@ -252,12 +255,10 @@
               Multi-select several nodes to see relationship between them.
             </div>
           </div>
-          <div class="_guide--grid-two">
+          <div class="_guide--grid-two-of-two">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/interaction-relationship-mobile.jpg" alt="" />
             </div>
-          </div>
-          <div class="_guide--grid-three">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/interaction-relationship-desktop.jpg" alt="" />
             </div>
@@ -273,12 +274,10 @@
               Double click the node to open the expand menu and expand by node type.
             </div>
           </div>
-          <div class="_guide--grid-two">
+          <div class="_guide--grid-two-of-two">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/interaction-expand-mobile.jpg" alt="" />
             </div>
-          </div>
-          <div class="_guide--grid-three">
             <div class="_guide--img-container">
               <img src="images/portfolio/mobile-first-network-vis/assumption2-do.jpg" alt="" />
             </div>
@@ -288,10 +287,10 @@
         <div class="_guide--sub-session-container">
           <div class="_guide--grid-one">
             <div class="_guide--text-title">
-              Semantic zoom the network
+              Semantic zoom
             </div>
             <div class="_guide--text">
-              Nodes, line and text size will stay same, only distance between nodes will change.
+              Nodes, line and text size will stay same, only distance between nodes will change. When the nodes become clustered, the text is turned off.
             </div>
           </div>
           <div class="_guide--grid-two">
@@ -304,10 +303,256 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="_guide--content-session-container">
+        <hr id="NV-design-process" class="_guide--hr base--hr">
+        <div class="_guide--content-session-title">
+          My Design Process
+        </div>
 
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Research Visualization
+            </div>
+            <div class="_guide--text">
+              I conducted desktop research and summarized previoud discovery products related use research to define:
+            </div>
+            <div class="_guide--list">
+              <li class="_guide--list-item">Discovery methods</li>
+              <li class="_guide--list-item">Key actions in discovery user flow</li>
+              <li class="_guide--list-item">Best practical of designing network visualization</li>
+            </div>
+          </div>
+          <div class="_guide--grid-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-1.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              What, why, who discovers
+            </div>
+          </div>
+          <div class="_guide--grid-three">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-2.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Where, when discovers
+            </div>
+          </div>
+          <div class="_guide--grid-one">
+          </div>
+          <div class="_guide--grid-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-3.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Actions in discovery
+            </div>
+          </div>
+          <div class="_guide--grid-three">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-4.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Key actions in discovery
+            </div>
+          </div>
+          <div class="_guide--grid-one">
+          </div>
+          <div class="_guide--grid-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-5.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Elements in network visualization
+            </div>
+          </div>
+          <div class="_guide--grid-three">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-vis-research-6.jpg" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Design aspects in network visualization
+            </div>
+          </div>
+        </div>
 
-        <hr class="_guide--hr base--hr">
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Design initial user flow
+            </div>
+            <div class="_guide--text">
+              I designed an initial user flow based on the assumptions that user would purposefully start exploring from relevant portion and expand the network.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/mobile-first-network-vis/process-user-flow.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div>
+            <div class="_guide--grid-one">
+              <div class="_guide--text-title">
+                Prototyping and user testing
+              </div>
+              <div class="_guide--text">
+                I coded an interactive prototype based on D3.js and Peter Pan dataset, and teamed up with a user research conducting user testing with over 50 researchers/analysts from finance, legal, food ,energy industries.
+              </div>
+            </div>
+            <div class="_guide--grid-two-of-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-testing-chart.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="_guide--grid-one">
+            </div>
+            <div class="_guide--grid-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-testing-dont-1.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_RED">
+                <div class="_guide--explain-title _guide--explain-title_RED">
+                  Finding.
+                </div>
+                <div class="_guide--explain-txt">
+                  Users felt disconnected between the links menu and selected nodes.
+                </div>
+              </div>
+            </div>
+            <div class="_guide--grid-three">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/assumption2-do.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_GREEN">
+                <div class="_guide--explain-title _guide--explain-title_GREEN">
+                  Resolution.
+                </div>
+                <div class="_guide--explain-txt">
+                  Context menu will appear near the node.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="_guide--grid-one">
+            </div>
+            <div class="_guide--grid-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-testing-dont-2.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_RED">
+                <div class="_guide--explain-title _guide--explain-title_RED">
+                  Finding.
+                </div>
+                <div class="_guide--explain-txt">
+                  User interpreted node size was associated with the entity information
+                </div>
+              </div>
+            </div>
+            <div class="_guide--grid-three">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/interaction-click-node-desktop.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_GREEN">
+                <div class="_guide--explain-title _guide--explain-title_GREEN">
+                  Resolution.
+                </div>
+                <div class="_guide--explain-txt">
+                  Keep node size consistent.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="_guide--grid-one">
+            </div>
+            <div class="_guide--grid-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-testing-dont-3.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_RED">
+                <div class="_guide--explain-title _guide--explain-title_RED">
+                  Finding.
+                </div>
+                <div class="_guide--explain-txt">
+                  Line is hard to click. Users expected relationship information would show up when multi-selecting nodes.
+                </div>
+              </div>
+            </div>
+            <div class="_guide--grid-three">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/interaction-relationship-desktop.jpg" alt="" />
+              </div>
+              <div class="_guide--do-container _guide--do-container_GREEN">
+                <div class="_guide--explain-title _guide--explain-title_GREEN">
+                  Resolution.
+                </div>
+                <div class="_guide--explain-txt">
+                  Show up relationship information when multi-selecting nodes.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div>
+            <div class="_guide--grid-one">
+              <div class="_guide--text-title">
+                Enhance responsive design
+              </div>
+              <div class="_guide--text">
+                I made some paper prototypes and tested different layout and interaction usabilities on touch screen.
+              </div>
+            </div>
+            <div class="_guide--grid-two-of-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-responsive-paper.jpg" alt="" />
+              </div>
+              <div class="_guide--explain-txt">
+                Some examples of my paper prototypes
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="_guide--grid-one">
+            </div>
+            <div class="_guide--grid-two-of-two">
+              <div class="_guide--img-container">
+                <img src="images/portfolio/mobile-first-network-vis/process-responsive-screen.jpg" alt="" />
+              </div>
+              <div class="_guide--explain-txt">
+                Some examples of mobile screens
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="_guide--content-session-container">
+        <hr id="NV-takeaway" class="_guide--hr base--hr">
+        <div class="_guide--content-session-title">
+          My Takeaway
+        </div>
+        <div class="_guide--list">
+          <li class="_guide--list-item">Go for quanities instead of for detailed qualities when generating design concepts phrase.</li>
+          <li class="_guide--list-item">Be patient to wait for behavior patterns coming up in user testing instead of changing design after every testing.</li>
+          <li class="_guide--list-item">Schedule critiques as much as possible with stakeholders.</li>
+        </div>
       </div>
 
 

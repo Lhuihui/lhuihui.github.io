@@ -103,7 +103,7 @@
   }
 
   &--content-session-container{
-    margin-top: get('rhythm') * 5 / 2;
+    margin-top: get('rhythm') * 4;
     font-size: ms(2);
     color: color('teal', 40);
     font-weight: 400;
@@ -125,7 +125,7 @@
   }
 
   &--hr{
-    margin-top: get('rhythm') * 4;
+    margin-bottom: get('rhythm') * 5 / 2;
   }
 
   &--text-title{
@@ -167,6 +167,8 @@
   }
 
   &--grid-one{
+    min-height: 1px;
+
     @include breakpoint(1100px){
       @include divisions(3);
     }
@@ -179,7 +181,20 @@
     };
 
     @include breakpoint(1100px){
+      padding-left: get('rhythm') / 2;
+      padding-right: 0;
       @include divisions(3);
+    }
+  }
+
+  &--grid-two-of-two{
+    @include breakpoint(700px){
+      @include divisions(1);
+    };
+
+    @include breakpoint(1100px){
+      @include divisions(3/2);
+      padding-left: get('rhythm') / 2;
     }
   }
 
@@ -195,7 +210,7 @@
   }
 
   &--sub-session-container{
-    margin-top: get('rhythm');
+    margin-top: get('rhythm')*2;
   }
 
 
