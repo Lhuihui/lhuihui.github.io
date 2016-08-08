@@ -583,7 +583,7 @@ body {
   margin-left: 1em;
   font-style: italic;
   color: #464646;
-  border-left: 0.25em solid; }
+  border-left: 0.25em solid #c7c7c7; }
 
 .base--table {
   width: 100%; }
@@ -1186,11 +1186,14 @@ body {
 
 ._guide--page-title {
   font-size: 1.333em;
-  font-weight: 400;
-  color: #00b4a0; }
+  font-weight: 400; }
   @media (min-width: 750px) {
     ._guide--page-title {
       font-size: 1.5625em; } }
+  ._guide--page-title_TEAL {
+    color: #00b4a0; }
+  ._guide--page-title_BLUE {
+    color: #4178be; }
 
 ._guide--cover-img {
   width: 100%; }
@@ -1206,10 +1209,13 @@ body {
   font-weight: 400; }
 
 ._guide--content-link {
-  color: #00b4a0;
   font-size: 1.25em;
   font-weight: 400;
   margin-top: 0.66667rem; }
+  ._guide--content-link_TEAL {
+    color: #00b4a0; }
+  ._guide--content-link_BLUE {
+    color: #4178be; }
 
 ._guide--content-link-a {
   text-decoration: none; }
@@ -1332,3 +1338,57 @@ body {
 
 ._guide--sub-session-container {
   margin-top: 4rem; }
+
+._guide--content-case-study-container {
+  max-width: 40rem;
+  margin: 4rem auto 0; }
+
+._guide--content-case-study-sub-container {
+  max-width: 40rem;
+  margin: 2rem auto; }
+
+._guide--content-case-study-sub-container2 {
+  max-width: 40rem;
+  margin: 1rem auto; }
+
+._guide--content-case-study-sub-title {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #121212; }
+
+._guide--content-case-study-sub-container3 {
+  max-width: 40rem;
+  margin: 2rem auto 0; }
+
+._guide--case-study-title {
+  font-weight: 600;
+  margin-bottom: 2rem; }
+
+._guide--case-study-text {
+  font-weight: 400;
+  color: #5a5a5a; }
+
+@media (min-width: 700px) {
+  ._guide--two-of-one-container {
+    width: calc(50% - 0rem);
+    margin-right: 0rem;
+    display: block;
+    float: left;
+    padding-right: 1rem; }
+    ._guide--two-of-one-container:nth-of-type(2n) {
+      margin-right: 0rem; } }
+
+._guide--two-of-two-container {
+  margin-top: 0; }
+  @media (min-width: 700px) {
+    ._guide--two-of-two-container {
+      width: calc(50% - 0rem);
+      margin-right: 0rem;
+      display: block;
+      float: left;
+      padding-left: 1rem; }
+      ._guide--two-of-two-container:nth-of-type(2n) {
+        margin-right: 0rem; } }
+
+._guide--blockquote {
+  border-left: 0.25em solid #959595; }

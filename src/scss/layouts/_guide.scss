@@ -67,12 +67,18 @@
   &--page-title{
     font-size: ms(2);
     font-weight: 400;
-    color: color('teal', 40);
-
 
     @include breakpoint(750px){
       font-size: ms(3);
     };
+
+    &_TEAL{
+      color: color('teal', 40);
+    }
+
+    &_BLUE{
+      color: color('blue', 50);
+    }
   }
 
   &--cover-img{
@@ -92,10 +98,17 @@
   }
 
   &--content-link{
-    color: color('teal', 40);
     font-size: ms(1);
     font-weight: 400;
     margin-top: get('rhythm') / 3;
+
+    &_TEAL{
+      color: color('teal', 40);
+    }
+
+    &_BLUE{
+      color: color('blue', 50);
+    }
   }
 
   &--content-link-a{
@@ -210,8 +223,65 @@
   }
 
   &--sub-session-container{
-    margin-top: get('rhythm')*2;
+    margin-top: get('rhythm') * 2;
   }
+
+  &--content-case-study-container{
+    max-width: 40rem;
+    margin: get('rhythm')*2 auto 0;
+  }
+
+  &--content-case-study-sub-container{
+    max-width: 40rem;
+    margin: get('rhythm') auto ;
+  }
+
+  &--content-case-study-sub-container2{
+    max-width: 40rem;
+    margin: get('rhythm') / 2 auto;
+  }
+
+  &--content-case-study-sub-title{
+    font-weight: 600;
+    font-size: ms(-1);
+    color: color('gray', 90);
+  }
+
+  &--content-case-study-sub-container3{
+    max-width: 40rem;
+    margin: get('rhythm') auto 0;
+  }
+
+  &--case-study-title{
+    font-weight: 600;
+    margin-bottom: get('rhythm');
+  }
+
+  &--case-study-text{
+    font-weight: 400;
+    color: color('gray', 60);
+  }
+
+  &--two-of-one-container{
+    @include breakpoint(700px){
+      @include divisions(2);
+      padding-right: get('rhythm') / 2;
+    };
+  }
+
+  &--two-of-two-container{
+    margin-top: 0;
+    
+    @include breakpoint(700px){
+      @include divisions(2);
+      padding-left: get('rhythm') / 2;
+    };
+  }
+
+  &--blockquote{
+    border-left: .25em solid color('gray', 40);
+  }
+
 
 
 
