@@ -1104,7 +1104,7 @@ body {
   margin: 4rem 0 8rem; }
   @media (min-width: 640px) {
     ._app--personal-des {
-      margin: 9rem 0 18rem; } }
+      margin: 11rem 0 18rem; } }
 
 ._app--personal-des-title {
   font-weight: 700;
@@ -1129,8 +1129,8 @@ body {
     margin: 0 2rem; } }
 
 ._app--selected-work {
-  color: #777677;
-  font-weight: 400; }
+  color: #5a5a5a;
+  font-weight: 500; }
 
 .content {
   margin-top: 0rem; }

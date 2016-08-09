@@ -25,7 +25,7 @@
     margin: get('rhythm') * 2 0 get('rhythm')* 4;
 
     @include breakpoint(get('small')){
-      margin: get('rhythm')*4.5 0 get('rhythm')*9;
+      margin: get('rhythm')*5.5 0 get('rhythm')*9;
     };
   }
 
@@ -57,8 +57,8 @@
   }
 
   &--selected-work{
-    color: color('gray', 50);
-    font-weight: get('normal weight font');
+    color: color('gray', 60);
+    font-weight: 500;
 
   }
 }
