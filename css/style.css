@@ -1101,21 +1101,36 @@ body {
   display: block; }
 
 ._app--personal-des {
-  margin: 5rem 2rem 7rem; }
+  margin: 4rem 0 8rem; }
   @media (min-width: 640px) {
     ._app--personal-des {
-      margin: 5rem 0 7rem; } }
+      margin: 9rem 0 18rem; } }
 
-._app--personal-des-text {
+._app--personal-des-title {
   font-weight: 700;
   margin-top: 0;
-  font-size: 1.95312em;
+  font-size: 3.05176em;
   line-height: 1.3;
   color: #121212; }
+  @media (min-width: 640px) {
+    ._app--personal-des-title {
+      font-size: 4.76837em; } }
+
+._app--personal-des-text {
+  font-weight: 400;
+  margin-top: 0;
+  font-size: 1.333em;
+  line-height: 1.3;
+  color: #959595;
+  max-width: 30rem; }
 
 @media (min-width: 640px) {
   ._app--container {
     margin: 0 2rem; } }
+
+._app--selected-work {
+  color: #777677;
+  font-weight: 400; }
 
 .content {
   margin-top: 0rem; }
@@ -1174,14 +1189,24 @@ body {
   bottom: -9999px;
   margin: auto; }
 
-._guide--nav {
+._guide--nav-work {
+  position: absolute;
+  font-weight: 600;
+  color: #5a5a5a;
+  right: 5rem;
+  top: 1.3rem; }
+  @media (min-width: 768px) {
+    ._guide--nav-work {
+      right: 7rem; } }
+
+._guide--nav-about {
   position: absolute;
   font-weight: 600;
   color: #5a5a5a;
   right: 1rem;
   top: 1.3rem; }
   @media (min-width: 768px) {
-    ._guide--nav {
+    ._guide--nav-about {
       right: 2rem; } }
 
 ._guide--page-title {

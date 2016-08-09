@@ -51,7 +51,19 @@
     margin: auto;
   }
 
-  &--nav{
+  &--nav-work{
+    position: absolute;
+    font-weight: get('semi bold weight font');
+    color: color('gray', 60);
+    right: get('rhythm') * 2.5;
+    top: 1.3rem;
+
+    @include breakpoint(768px){
+      right: get('rhythm') * 3.5;
+    };
+  }
+
+  &--nav-about{
     position: absolute;
     font-weight: get('semi bold weight font');
     color: color('gray', 60);
@@ -271,7 +283,7 @@
 
   &--two-of-two-container{
     margin-top: 0;
-    
+
     @include breakpoint(700px){
       @include divisions(2);
       padding-left: get('rhythm') / 2;

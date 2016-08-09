@@ -22,24 +22,43 @@
   }
 
   &--personal-des{
-    margin: get('rhythm')*2.5 get('rhythm') get('rhythm')*3.5;
+    margin: get('rhythm') * 2 0 get('rhythm')* 4;
 
     @include breakpoint(get('small')){
-      margin: get('rhythm')*2.5 0 get('rhythm')*3.5;
+      margin: get('rhythm')*4.5 0 get('rhythm')*9;
     };
   }
 
-  &--personal-des-text{
+  &--personal-des-title{
     font-weight: get('bold weight font');
     margin-top: 0;
-    font-size: ms(5);
+    font-size: ms(8);
     line-height: 1.3;
     color: color('gray', 90);
+
+    @include breakpoint(get('small')){
+      font-size: ms(12);
+    }
+  }
+
+  &--personal-des-text{
+    font-weight: get('normal weight font');
+    margin-top: 0;
+    font-size: ms(2);
+    line-height: 1.3;
+    color: color('gray', 40);
+    max-width: 30rem;
   }
 
   &--container{
     @include breakpoint(get('small')){
       margin: 0 get('rhythm');
     };
+  }
+
+  &--selected-work{
+    color: color('gray', 50);
+    font-weight: get('normal weight font');
+
   }
 }
