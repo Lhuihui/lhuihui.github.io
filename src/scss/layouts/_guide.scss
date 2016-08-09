@@ -53,10 +53,10 @@
 
   &--nav-work{
     position: absolute;
-    font-weight: get('semi bold weight font');
     color: color('gray', 60);
     right: get('rhythm') * 2.5;
     top: 1.3rem;
+    font-weight: 500;
 
     @include breakpoint(768px){
       right: get('rhythm') * 3.5;
@@ -65,7 +65,7 @@
 
   &--nav-about{
     position: absolute;
-    font-weight: get('semi bold weight font');
+    font-weight: 500;
     color: color('gray', 60);
     right: get('rhythm') / 2;
     top: 1.3rem;
