@@ -789,7 +789,7 @@ body {
     background-color: #e0e0e0; }
 
 .text-title {
-  padding: 2rem;
+  padding: 2rem 0;
   background-color: #fdfdfd;
   cursor: pointer;
   margin-top: 0rem;
@@ -1219,6 +1219,8 @@ body {
     color: #00b4a0; }
   ._guide--page-title_BLUE {
     color: #4178be; }
+  ._guide--page-title_GREEN {
+    color: #6eb400; }
 
 ._guide--cover-img {
   width: 100%; }
@@ -1241,6 +1243,8 @@ body {
     color: #00b4a0; }
   ._guide--content-link_BLUE {
     color: #4178be; }
+  ._guide--content-link_GREEN {
+    color: #6eb400; }
 
 ._guide--content-link-a {
   text-decoration: none; }
@@ -1416,7 +1420,12 @@ body {
         margin-right: 0rem; } }
 
 ._guide--blockquote {
-  border-left: 0.25em solid #959595; }
+  border-left: 0.25em solid #e0e0e0; }
+
+._guide--case-study-sub-text {
+  font-size: 0.8em;
+  margin-left: 1.2rem;
+  color: #aeaeae; }
 
 ._about--session {
   margin-top: 4rem; }

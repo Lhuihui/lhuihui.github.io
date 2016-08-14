@@ -91,6 +91,10 @@
     &_BLUE{
       color: color('blue', 50);
     }
+
+    &_GREEN{
+      color: color('green', 40);
+    }
   }
 
   &--cover-img{
@@ -120,6 +124,10 @@
 
     &_BLUE{
       color: color('blue', 50);
+    }
+
+    &_GREEN{
+      color: color('green', 40);
     }
   }
 
@@ -291,7 +299,13 @@
   }
 
   &--blockquote{
-    border-left: .25em solid color('gray', 40);
+    border-left: .25em solid color('gray', 10);
+  }
+
+  &--case-study-sub-text{
+    font-size: ms(-1);
+    margin-left: get('rhythm') * 3 / 5;
+    color: color('gray', 30);
   }
 
 
