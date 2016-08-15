@@ -95,6 +95,10 @@
     &_GREEN{
       color: color('green', 40);
     }
+
+    &_ORANGE{
+      color: color('orange', 50);
+    }
   }
 
   &--cover-img{
@@ -102,9 +106,16 @@
   }
 
   &--content-container{
-    border-left: 0.3rem solid color('teal', 40);
     padding-left: get('rhythm');
     margin-top: get('rhythm');
+
+    &_TEAL{
+      border-left: 0.3rem solid color('teal', 40);
+    }
+
+    &_ORANGE{
+      border-left: 0.3rem solid color('orange', 20);
+    }
   }
 
   &--content-title{
@@ -129,6 +140,10 @@
     &_GREEN{
       color: color('green', 40);
     }
+
+    &_ORANGE{
+      color: color('orange', 50);
+    }
   }
 
   &--content-link-a{
@@ -138,12 +153,19 @@
   &--content-session-container{
     margin-top: get('rhythm') * 4;
     font-size: ms(2);
-    color: color('teal', 40);
     font-weight: 400;
   }
 
   &--content-session-title{
     margin-bottom: get('rhythm');
+
+    &_TEAL{
+      color: color('teal', 40);
+    }
+
+    &_ORANGE{
+      color: color('orange', 50);
+    }
   }
 
   &--text{
@@ -306,6 +328,19 @@
     font-size: ms(-1);
     margin-left: get('rhythm') * 3 / 5;
     color: color('gray', 30);
+  }
+
+  &--grid-even-one{
+    @include breakpoint(750px){
+      @include divisions(3 / 2);
+      padding-right: get('rhythm') * 2;
+    };
+  }
+
+  &--grid-even-two{
+    @include breakpoint(750px){
+      @include divisions(3);
+    };
   }
 
 
