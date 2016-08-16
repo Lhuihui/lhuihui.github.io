@@ -99,6 +99,10 @@
     &_ORANGE{
       color: color('orange', 50);
     }
+
+    &_PURPLE{
+      color: color('purple', 50);
+    }
   }
 
   &--cover-img{
@@ -143,6 +147,10 @@
 
     &_ORANGE{
       color: color('orange', 50);
+    }
+
+    &_PURPLE{
+      color: color('purple', 50);
     }
   }
 
@@ -341,6 +349,51 @@
     @include breakpoint(750px){
       @include divisions(3);
     };
+  }
+
+  &--btn{
+    $color: color('purple', 50);
+    $background: transparent;
+    $border: color('purple', 50);
+    $block: false;
+
+    padding: 0.25em 2em;
+    color: $color;
+    font-weight: 500;
+    background-color: $background;
+    border: 2px solid $border;
+    border-radius: 10rem;
+    transition: 0.2s;
+    text-decoration: none;
+
+    @if $block {
+      display: block;
+    } @else {
+      display: inline-block;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: lighten($background, 15%);
+      border-color: lighten($border, 15%);
+      color: lighten($color, 15%);
+    }
+
+    &:active {
+      transition: 0s;
+      transform: translateY(2px);
+    }
+
+    cursor: pointer;
+  }
+
+  &--btn-container{
+    text-align: center;
+  }
+
+  &--gray-container{
+    background-color: #ececec;
+    padding: get('rhythm') / 2;
   }
 
 
