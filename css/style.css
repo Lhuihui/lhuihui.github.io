@@ -1486,7 +1486,11 @@ body {
   text-align: center; }
 
 ._guide--gray-container {
-  background-color: #ececec;
+  background-color: #ECECEC;
+  padding: 1rem; }
+
+._guide--blue-container {
+  background-color: #E5F2FA;
   padding: 1rem; }
 
 ._about--session {

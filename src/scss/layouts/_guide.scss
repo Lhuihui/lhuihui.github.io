@@ -393,7 +393,12 @@
   }
 
   &--gray-container{
-    background-color: #ececec;
+    background-color: #ECECEC;
+    padding: get('rhythm') / 2;
+  }
+
+  &--blue-container{
+    background-color: #E5F2FA;
     padding: get('rhythm') / 2;
   }
 
