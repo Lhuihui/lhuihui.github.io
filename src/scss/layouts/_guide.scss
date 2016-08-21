@@ -104,6 +104,10 @@
       color: color('purple', 50);
     }
 
+    &_RED{
+      color: color('red', 60);
+    }
+
   }
 
   &--cover-img{
@@ -152,6 +156,10 @@
 
     &_PURPLE{
       color: color('purple', 50);
+    }
+
+    &_RED{
+      color: color('red', 60);
     }
   }
 
@@ -399,6 +407,11 @@
 
   &--blue-container{
     background-color: #E5F2FA;
+    padding: get('rhythm') / 2;
+  }
+
+  &--red-container{
+    background-color: #fdf1f6;
     padding: get('rhythm') / 2;
   }
 

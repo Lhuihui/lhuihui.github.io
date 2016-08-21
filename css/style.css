@@ -1225,6 +1225,8 @@ body {
     color: #d74108; }
   ._guide--page-title_PURPLE {
     color: #9855d4; }
+  ._guide--page-title_RED {
+    color: #ad1625; }
 
 ._guide--cover-img {
   width: 100%; }
@@ -1256,6 +1258,8 @@ body {
     color: #d74108; }
   ._guide--content-link_PURPLE {
     color: #9855d4; }
+  ._guide--content-link_RED {
+    color: #ad1625; }
 
 ._guide--content-link-a {
   text-decoration: none; }
@@ -1491,6 +1495,10 @@ body {
 
 ._guide--blue-container {
   background-color: #E5F2FA;
+  padding: 1rem; }
+
+._guide--red-container {
+  background-color: #fdf1f6;
   padding: 1rem; }
 
 ._about--session {
