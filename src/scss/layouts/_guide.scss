@@ -108,6 +108,10 @@
       color: color('red', 60);
     }
 
+    &_YELLOW{
+      color: color('yellow', 40);
+    }
+
   }
 
   &--cover-img{
@@ -160,6 +164,10 @@
 
     &_RED{
       color: color('red', 60);
+    }
+
+    &_YELLOW{
+      color: color('yellow', 40);
     }
   }
 
@@ -413,6 +421,15 @@
   &--red-container{
     background-color: #fdf1f6;
     padding: get('rhythm') / 2;
+  }
+
+  &--yellow-container{
+    background-color: #f4f4f4;
+    padding: get('rhythm') / 2;
+  }
+
+  &--list{
+    margin-top: get('rhythm') / 8;
   }
 
 

@@ -1227,6 +1227,8 @@ body {
     color: #9855d4; }
   ._guide--page-title_RED {
     color: #ad1625; }
+  ._guide--page-title_YELLOW {
+    color: #be9b00; }
 
 ._guide--cover-img {
   width: 100%; }
@@ -1260,6 +1262,8 @@ body {
     color: #9855d4; }
   ._guide--content-link_RED {
     color: #ad1625; }
+  ._guide--content-link_YELLOW {
+    color: #be9b00; }
 
 ._guide--content-link-a {
   text-decoration: none; }
@@ -1500,6 +1504,13 @@ body {
 ._guide--red-container {
   background-color: #fdf1f6;
   padding: 1rem; }
+
+._guide--yellow-container {
+  background-color: #f4f4f4;
+  padding: 1rem; }
+
+._guide--list {
+  margin-top: 0.25rem; }
 
 ._about--session {
   margin-top: 4rem; }
