@@ -53,7 +53,7 @@
 
   &--nav-work{
     position: absolute;
-    color: color('gray', 60);
+    color: color('gray', 30);
     right: get('rhythm') * 2.5;
     top: 1.3rem;
     font-weight: 500;
@@ -61,18 +61,26 @@
     @include breakpoint(768px){
       right: get('rhythm') * 3.5;
     };
+
+    &.active{
+      color: color('gray', 60);
+    }
   }
 
   &--nav-about{
     position: absolute;
     font-weight: 500;
-    color: color('gray', 60);
+    color: color('gray', 30);
     right: get('rhythm') / 2;
     top: 1.3rem;
 
     @include breakpoint(768px){
       right: get('rhythm');
     };
+
+    &.active{
+      color: color('gray', 60);
+    }
   }
 
 

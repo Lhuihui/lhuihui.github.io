@@ -1191,23 +1191,27 @@ body {
 
 ._guide--nav-work {
   position: absolute;
-  color: #5a5a5a;
+  color: #aeaeae;
   right: 5rem;
   top: 1.3rem;
   font-weight: 500; }
   @media (min-width: 768px) {
     ._guide--nav-work {
       right: 7rem; } }
+  ._guide--nav-work.active {
+    color: #5a5a5a; }
 
 ._guide--nav-about {
   position: absolute;
   font-weight: 500;
-  color: #5a5a5a;
+  color: #aeaeae;
   right: 1rem;
   top: 1.3rem; }
   @media (min-width: 768px) {
     ._guide--nav-about {
       right: 2rem; } }
+  ._guide--nav-about.active {
+    color: #5a5a5a; }
 
 ._guide--page-title {
   font-size: 1.333em;
