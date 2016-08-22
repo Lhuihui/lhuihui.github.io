@@ -127,4 +127,20 @@ $(document).ready(function() {
   updateRectangles('.js-tile_25');
   updateRectangles('.js-tile_50');
   updateRectangles('.js-tile_100');
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() == 0) {
+        $('.header').css({
+                'box-shadow': 'none',
+                '-moz-box-shadow' : 'none',
+                '-webkit-box-shadow' : 'none' });
+    }
+    else {
+        $('.header').css({
+                'box-shadow': '0px 3px 3px #ececec',
+                '-moz-box-shadow' : '0px 3px 3px #ececec',
+                '-webkit-box-shadow' : '0px 3px 3px #ececec' });
+    }
+  });
+
 });
