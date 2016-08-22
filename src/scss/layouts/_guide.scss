@@ -53,7 +53,7 @@
 
   &--nav-work{
     position: absolute;
-    color: color('gray', 30);
+    color: color('gray', 60);
     right: get('rhythm') * 2.5;
     top: 1.3rem;
     font-weight: 500;
@@ -62,15 +62,15 @@
       right: get('rhythm') * 3.5;
     };
 
-    &.active{
-      color: color('gray', 60);
+    &.inactive{
+      color: color('gray', 30);
     }
   }
 
   &--nav-about{
     position: absolute;
     font-weight: 500;
-    color: color('gray', 30);
+    color: color('gray', 60);
     right: get('rhythm') / 2;
     top: 1.3rem;
 
@@ -78,8 +78,8 @@
       right: get('rhythm');
     };
 
-    &.active{
-      color: color('gray', 60);
+    &.inactive{
+      color: color('gray', 30);
     }
   }
 
