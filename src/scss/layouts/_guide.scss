@@ -242,6 +242,12 @@
     color: color('gray', 40);
   }
 
+  &--explain-txt-dark{
+    font-size: ms(-1);
+    margin-top: get('rhythm') / 4;
+    color: color('gray', 60);
+  }
+
   &--do-container{
     padding-top: get('rhythm') / 4;
 

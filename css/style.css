@@ -1312,6 +1312,11 @@ body {
   margin-top: 0.5rem;
   color: #959595; }
 
+._guide--explain-txt-dark {
+  font-size: 0.8em;
+  margin-top: 0.5rem;
+  color: #5a5a5a; }
+
 ._guide--do-container {
   padding-top: 0.5rem; }
   ._guide--do-container_GREEN {
