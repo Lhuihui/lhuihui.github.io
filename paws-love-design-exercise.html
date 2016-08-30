@@ -37,7 +37,7 @@
         Paws Love
       </h2>
       <div class="_guide--cover-img-container">
-        <img class="_guide--cover-img" src="images/portfolio/discover4finance/discover4finance-cover-page.jpg" alt="watson discover advisor cover page">
+        <img class="_guide--cover-img" src="images/portfolio/google-design-exercise/paws-love-cover-page1.png" alt="watson discover advisor cover page">
       </div>
 
       <div class="_guide--content-case-study-container">
@@ -47,7 +47,7 @@
         <div>
           <strong>Desktop Research (0.5 hour)</strong>
           <div class="_guide--case-study-text">
-            To get a sense of the problem space, I started conducting desktop research to understand pet adoption process, and who are the different players in the ecosystem of pet adoption industry, and how each player is contributing to the pet adoption process.
+            To get a sense of the problem space, I started conducting desktop research to understand the pet adoption process, and I want to identify who are the different players in the ecosystem, and how each player is contributing to the process.
           </div>
           <div class="_guide--case-study-text">
             The following diagram is how I understand the ecosystem of pet adoption.
@@ -61,7 +61,7 @@
         <div class="">
           <strong>Field Trip (2.5 hours)</strong>
           <div class="_guide--case-study-text">
-            After having a big picture of pet adoption ecosystem, I think knowing what's going on at shelters is very important, so I decided to have a field trip in Texas Human Heroes.
+            After having the big picture of pet adoption ecosystem, I think shelter is a key place to understand current pet matching experience, so I decided to have a field trip in Texas Human Heroes.
           </div>
         </div>
       </div>
@@ -70,10 +70,10 @@
       </div>
       <div class="_guide--content-case-study-sub-container">
         <div class="_guide--case-study-text">
-          After seeing so many cute pets waiting in the cage, I developed a deep empathy for them. Most of them are very lone, and longing for a companion, geniune care and freedom.
+          Seeing so many cute pets waiting in the cage, I developed a deep empathy for them. Most of them are very lone, and longing for a companion, geniune care and freedom.
         </div>
         <div class="_guide--case-study-text">
-          I had some interesting findings about how shelters were delivering information to potential adopters. The pet information was in the paper hanging on the animal cage. I've chatted with shelter staff. They told me most of the pet age, breeds information is based their guess.
+          I had some interesting findings about how shelters were delivering information to potential adopters. The pet information was in the paper hanging on the animal cage. The shelter staff told me most of the pet age, breeds information is based their guess.
         </div>
       </div>
       <div class="_guide--cover-img-container">
@@ -121,60 +121,290 @@
           Based on the shelter staff, their animals are from all over the place. When they got the animals, they didn't know their histories. They can only rely on the staff/volunteers' personal experience with the animals to help adopters to match the right one for them. Unfortunately, volunteers come and go. Most of the animal information didn't get fully transferred.
         </div>
         <div class="_guide--case-study-text">
-          So I think one big part of the solution should be providing an easy <strong>pet information contribution system</strong> to collect as much as data about the pet. Another big part of the solution is to provide adopters <strong>a cognitive personalized pet content platform for pet discovery, matching, recommendation and pet raising education</strong>.
+          So I think one big part of the solution should be providing an easy <strong>pet information documenting system</strong> to collect as much as data about the pet. Another big part of the solution is to provide adopters <strong>a cognitive personalized pet content platform for pet discovery, matching, recommendation and pet raising education</strong>.
         </div>
         <div class="_guide--case-study-text">
-          From user perspective, I defined three <a href="http://evaluo.im/ux-survival-kit.html#needs-statement" target="_blank">"needs statement"</a>:
+          From user perspective, I defined three MVP <a style="color:#008671;" href="http://evaluo.im/ux-survival-kit.html#needs-statement" target="_blank">"needs statement"</a>:
+        </div>
+        <div class="_guide--case-study-text" style = "color: #008671;">
+          <li>
+            Volunteers/shelter staff/foster families need a way to easily document the pet's key moment and information so that it can be accessible to potential adopters and help their decision making.
+          </li>
+          <li>
+            Pet adopters(Laura and Kathryn) need a way to easily discover available pets and have trustworthing information so that we can make right decisions based on their needs.
+          </li>
+          <li>
+            Pet adopters(Laura and Kathryn) need a way to get pet raising education so that they are better prepared to take care of the pet and deal with crisis.
+          </li>
         </div>
         <div class="_guide--case-study-text">
-          <li>An equity analyst is able to find relevant evidence in order to support or refute a financial forecast in minutes as opposed to days or weeks.</li>
-          <li>An equity analyst is able to find relevant evidence explaining securities phenomena for a 1000 securities in less than 10 minutes.</li>
-          <li>An equity analyst is able to posit a hypothetical cause and investigate the potential effects on the securities market based on relevant evidence within minutes.</li>
+          And one nice to have "needs statement":
+        </div>
+        <div class="_guide--case-study-text">
+          <li>
+            Shelter staff needs a way to track adopters' behave after adoption so that they can recommend future pets to good record adopters and help animals when they detect bad adopters.
+          </li>
         </div>
       </div>
 
       <div class="_guide--content-case-study-container">
-        <div class="_guide--content-link _guide--content-link_BLUE _guide--case-study-title">
-          Design
+        <div class="_guide--content-link _guide--content-link_PURPLE _guide--case-study-title">
+          Design for needs statement one
         </div>
-        <div class="_guide--case-study-text">
-          We began to sketch interaction solutions for the hills we identified.
+        <div class="">
+          <div class="base--blockquote _guide--blockquote _guide--case-study-text">
+            Volunteers/shelter staff/foster families need a way to easily document the pet's key moment and information so that it can be accessible to potential adopters and help their decision making.
+          </div>
+        </div>
+        <div style = "margin-top: 2rem;">
+          <strong>Decide solution platform</strong>
+          <div class="_guide--case-study-text">
+            Considering the environment when volunteers, shelter staff, foster familites are interacting the pets, their mobile phone probably will be the most accessible device at that moment. And it's better to be able to get access to camera, so I decide to design a <strong>mobile native app</strong>.
+          </div>
+        </div>
+
+        <div style = "margin-top: 2rem;">
+          <strong>Entry point</strong>
+          <div class="_guide--case-study-text">
+            To avoid lengthy pet profile retrieving process, I'm thinking having a <strong>QR code on each pet's cage</strong>, user can open the app and scan QR code for quick retrieveing pet profile.
+          </div>
+        </div>
+
+        <div style = "margin-top: 2rem;">
+          <strong>Pet story creating flow</strong>
+          <div class="_guide--case-study-text">
+            Based on the interviews, some participants mentioned that current pet information are provided in text format, which is very hard to visualize. So in the design, I'm trying to encourage user to create multi-media story assets, like photos and videos. Considering this will increase the content size in the platform which will potentially cause performance issues, I set up rules only <strong>one image or 1 second video</strong> allowed to be added to pet story per time. </div>
+          <div class="_guide--case-study-text">
+            Here is the Pet story creating flow:
+          </div>
         </div>
       </div>
+
       <div class="_guide--cover-img-container">
-        <img class="_guide--cover-img" src="images/portfolio/discover4finance/Sketch.jpg" alt="financial ecosystem">
+        <img class="_guide--cover-img" src="images/portfolio/google-design-exercise/Set-up-pet-profile.png" alt="financial ecosystem">
+      </div>
+
+
+      <div class="_guide--content-case-study-container">
+        <div style = "margin-top: 0;">
+          <strong>Pet story creating flow highlights</strong>
+          <div class="_guide--case-study-text">
+            The following highlights are explaining the reasons behind some of my design decisions.
+          </div>
+        </div>
+      </div>
+
+      <div class="_guide--content-session-container" style = "margin-top: 0;">
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Pet story: document 1s video/one image per time
+            </div>
+            <div class="_guide--text">
+              This rule will encourage volunteers/foster families to be creative to choose the most presentative moment to add to the pet storyline.
+            </div>
+            <div class="_guide--text">
+              It can help avoid noise in the content and keep its quality high. I'm showing my cat story which was made by a bunch of 1s videos and images as an example.
+            </div>
+          </div>
+          <div class="_guide--grid-two">
+            <div class="_guide--img-container">
+            </div>
+          </div>
+          <div class="_guide--grid-three">
+            <div class="_guide--img-container">
+              <iframe src="images/portfolio/google-design-exercise/grid-stroy.mp4"></iframe>
+            </div>
+            <div class="_guide--explain-txt">
+              pet story
+            </div>
+          </div>
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Tags and comments
+            </div>
+            <div class="_guide--text">
+              The tags and comments will surface on pet searching website as a useful reference information for adopters.
+            </div>
+            <div class="_guide--text">
+              The tag information can be used to train the matching algorithm in the system.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/tag-info.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Volunteer story and pet tracking
+            </div>
+            <div class="_guide--text">
+              Volunteers and foster familites are selflessly contributing their time helping the animals.
+            </div>
+            <div class="_guide--text">
+              Providing their volunteer story video could be served as a form of rewards. And the system will help them track the pet they helped and where those pets go.
+            </div>
+          </div>
+          <div class="_guide--grid-two">
+            <div class="_guide--img-container">
+            </div>
+          </div>
+          <div class="_guide--grid-three">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/volunteer-story.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="_guide--content-case-study-container">
+        <div class="_guide--content-link _guide--content-link_PURPLE _guide--case-study-title">
+          Design for needs statement two and three
+        </div>
+        <div class="">
+          <div class="base--blockquote _guide--blockquote _guide--case-study-text">
+            Pet adopters(Laura and Kathryn) need a way to easily discover available pets and have trustworthing information so that we can make right decisions based on their needs.
+          </div>
+          <div class="base--blockquote _guide--blockquote _guide--case-study-text">
+            Pet adopters(Laura and Kathryn) need a way to get pet raising education so that they are better prepared to take care of the pet and deal with crisis.
+          </div>
+        </div>
+      </div>
+      <div class="_guide--yellow-container">
+        <div class="_guide--two-img-container">
+          <div class="_guide--two-of-one-container">
+            <img src="images/portfolio/google-design-exercise/persona1.png" alt="" />
+          </div>
+          <div class="_guide--two-of-two-container">
+            <img src="images/portfolio/google-design-exercise/persona2.png" alt="" />
+          </div>
+        </div>
       </div>
       <div class="_guide--content-case-study-sub-container">
+        <div style = "margin-top: 2rem;">
+          <strong>Decide solution platform</strong>
+          <div class="_guide--case-study-text">
+            Considering most of people will explore pet information online at their computer, I decided to design <strong>a website</strong> for this part of solution.
+          </div>
+        </div>
+
+        <div style = "margin-top: 2rem;">
+          <strong>Paws Love website flow and highlights</strong>
+        </div>
+      </div>
+
+      <div class="_guide--content-session-container" style = "margin-top: 0;">
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Homepage
+            </div>
+            <div class="_guide--text">
+              The homepage will have a large range of audience. I hope to provide them a fun casual browsering experience, so we can attract the newbies coming to the community, and keep the community active.
+            </div>
+            <div class="_guide--text-title">
+              About live stream
+            </div>
+            <div class="_guide--text">
+              One type of content I was trying to provide here is live stream. My idea came from the fied trip to texas human hero. I met several girls and they were there playing with a lot of animals and they seem very experienced. They told me they were not looking for a pet, but they like animals. They generally spent a lot of weekends to check out animals.
+            </div>
+            <div class="_guide--text">
+              I felt like for those pet enthusiast, in shelter, we can set up a video recording environment for them. They can live stream or record how they interact with animals, which can be served as part of the educational materials.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/website-homepage.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Sign up flow
+            </div>
+            <div class="_guide--text">
+              I'm showing the pet match information collection part of sign up flow.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/sign-up-flow.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Pet profile page
+            </div>
+            <div class="_guide--text">
+              The pet profile page will provide the pet story video, volunteers' tagging and comments content, finanacial cost estimate, and a match analysis to help user evaluate the pets.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/pet-profile-page.png" alt="" />
+            </div>
+            <div class="_guide--explain-txt">
+              Tag pet screenshot
+            </div>
+          </div>
+        </div>
+
+        <div class="_guide--sub-session-container">
+          <div class="_guide--grid-one">
+            <div class="_guide--text-title">
+              Personalize content
+            </div>
+            <div class="_guide--text">
+              The system is tracking users' clicks and followed pets. The more it learns about users' interest, the more personalized contents it can provide for them.
+            </div>
+            <div class="_guide--text-title">
+              Cognitive matching
+            </div>
+            <div class="_guide--text">
+              Based on the pet match information user was provided when signing up, the system can generate matching analysis hypothesis. And it will take users' feedback to improve the matching accuracy.
+            </div>
+          </div>
+          <div class="_guide--grid-two-of-two">
+            <div class="_guide--img-container">
+              <img src="images/portfolio/google-design-exercise/personalized.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="_guide--content-case-study-container">
+        <div class="_guide--content-link _guide--content-link_PURPLE _guide--case-study-title">
+          Next steps
+        </div>
         <div class="_guide--case-study-text">
-          We showed the concept sketches to sponsor users to get feedback and iteratively designed them. The final design screenshots are as following, and I made an interactive prototype using AngularJS.
-        </div>
-      </div>
-      <div class="_guide--two-img-container">
-        <div class="_guide--two-of-one-container">
-          <img src="images/portfolio/discover4finance/visual-design1.png" alt="" />
-        </div>
-        <div class="_guide--two-of-two-container">
-          <img src="images/portfolio/discover4finance/visual-design2.png" alt="" />
-        </div>
-      </div>
-      <div class="_guide--two-img-container">
-        <div class="_guide--two-of-one-container">
-          <img src="images/portfolio/discover4finance/visual-design3.png" alt="" />
-        </div>
-        <div class="_guide--two-of-two-container">
-          <img src="images/portfolio/discover4finance/visual-design4.png" alt="" />
-        </div>
-      </div>
-      <div class="_guide--two-img-container">
-        <div class="_guide--two-of-one-container">
-          <img src="images/portfolio/discover4finance/visual-design5.png" alt="" />
-        </div>
-        <div class="_guide--two-of-two-container">
-          <img src="images/portfolio/discover4finance/visual-design6.png" alt="" />
+          <li>
+            Conduct more user research and testing to iterate the design solutions.
+          </li>
+          <li>
+            Set up pilot program in local shelters to see users' adoption to the solution.
+          </li>
+          <li>
+            Build data analytics to gain insights about how this solution has helped increase adoption speed and rate in shelters.
+          </li>
         </div>
       </div>
 
     </div>
+
+
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
