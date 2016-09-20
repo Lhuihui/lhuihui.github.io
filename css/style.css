@@ -535,7 +535,6 @@ body {
 .base--pre, .base--pre code, .base--pre .base--code {
   display: block;
   -webkit-hyphens: none;
-     -moz-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
   word-spacing: normal;
