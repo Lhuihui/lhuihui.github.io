@@ -1080,6 +1080,20 @@ body {
 .example--button-right {
   float: right; }
 
+.photo--text {
+  margin-top: 0;
+  text-align: center; }
+
+@media (min-width: 700px) {
+  .photo--small-container {
+    margin-top: 0;
+    width: calc(50% - 1rem);
+    margin-right: 2rem;
+    display: block;
+    float: left; }
+    .photo--small-container:nth-of-type(2n) {
+      margin-right: 0rem; } }
+
 ._app--header {
   margin-top: 0rem;
   position: fixed;
@@ -1156,6 +1170,13 @@ body {
       width: 1200px;
       margin: 4rem auto 0; } }
 
+._guide--photo-layout-content {
+  margin: 4rem 0; }
+  @media (min-width: 1200px) {
+    ._guide--photo-layout-content {
+      width: 1200px;
+      margin: 4rem auto 0; } }
+
 ._guide--header {
   margin-top: 0rem;
   top: 0rem;
@@ -1190,13 +1211,25 @@ body {
 ._guide--nav-work {
   position: absolute;
   color: #5a5a5a;
-  right: 5rem;
+  right: 13rem;
   top: 1.3rem;
   font-weight: 500; }
   @media (min-width: 768px) {
     ._guide--nav-work {
-      right: 7rem; } }
+      right: 16.3rem; } }
   ._guide--nav-work.inactive {
+    color: #aeaeae; }
+
+._guide--nav-photography {
+  position: absolute;
+  color: #5a5a5a;
+  right: 5rem;
+  top: 1.3rem;
+  font-weight: 500; }
+  @media (min-width: 768px) {
+    ._guide--nav-photography {
+      right: 7rem; } }
+  ._guide--nav-photography.inactive {
     color: #aeaeae; }
 
 ._guide--nav-about {

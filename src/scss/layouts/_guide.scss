@@ -15,6 +15,15 @@
 		}
   }
 
+  &--photo-layout-content{
+    margin: $header-height 0;
+
+		@include breakpoint(1200px){
+			width: 1200px;
+			margin: $header-height auto 0;
+		}
+  }
+
   &--header{
     margin-top: 0rem;
     top: 0rem;
@@ -52,6 +61,22 @@
   }
 
   &--nav-work{
+    position: absolute;
+    color: color('gray', 60);
+    right: get('rhythm') * 6.5;
+    top: 1.3rem;
+    font-weight: 500;
+
+    @include breakpoint(768px){
+      right: 16.3rem;
+    };
+
+    &.inactive{
+      color: color('gray', 30);
+    }
+  }
+
+  &--nav-photography{
     position: absolute;
     color: color('gray', 60);
     right: get('rhythm') * 2.5;

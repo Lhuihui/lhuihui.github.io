@@ -1,0 +1,13 @@
+.photo{
+  &--text{
+    margin-top: 0;
+    text-align: center;
+  }
+
+  &--small-container{
+    @include breakpoint(700px){
+      margin-top: 0;
+      @include divisions(2, 2rem);
+    };
+  }
+}
