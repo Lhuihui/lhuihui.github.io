@@ -1,0 +1,19 @@
+.footer{
+  &--text{
+    text-align: center;
+  }
+
+  &--social-container{
+    margin-top: 0;
+  }
+
+  &--icon-container{
+    margin: get('rhythm') / 4 get('rhythm') / 8;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  &--icon-link{
+    text-decoration: none;
+  }
+}
