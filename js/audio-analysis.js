@@ -8,5 +8,5 @@ $(document).ready(function() {
   sr.reveal('.audio--content-5');
   sr.reveal('.audio--content-6');
   sr.reveal('.audio--content-7');
-  sr.reveal('.audio--content-8');
+  // sr.reveal('.audio--content-8');
 });
