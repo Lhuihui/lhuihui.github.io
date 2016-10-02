@@ -1124,7 +1124,8 @@ body {
   margin: 2rem; }
 
 .footer--a {
-  color: #464646; }
+  color: #464646;
+  text-decoration: none; }
 
 ._app--header {
   margin-top: 0rem;
