@@ -87,13 +87,17 @@
     top: 1.3rem;
     font-weight: 400;
 
+    background-color: transparent;
+    padding: 0 0.3rem;
+
+    &:hover{
+      background-color: #fcd602;
+      color: color('gray', 60);
+    }
+
     @include breakpoint(768px){
       right: get('rhythm') * 3.5;
     };
-
-    &.inactive{
-      color: color('gray', 30);
-    }
   }
 
   &--nav-about{
@@ -103,13 +107,18 @@
     right: get('rhythm') / 2;
     top: 1.3rem;
 
+    background-color: transparent;
+    padding: 0 0.3rem;
+
+    &:hover{
+      background-color: #fcd602;
+      color: color('gray', 60);
+    }
+
     @include breakpoint(768px){
       right: get('rhythm');
     };
 
-    &.inactive{
-      color: color('gray', 30);
-    }
   }
 
 

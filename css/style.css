@@ -1177,6 +1177,8 @@ body {
     margin-top: 0; }
   .content--footer {
     text-align: center; }
+  .content--container-no-margin {
+    margin-top: 0; }
 
 ._guide--new-layout-content {
   margin: 4rem 0;
@@ -1247,24 +1249,30 @@ body {
   color: #5a5a5a;
   right: 5rem;
   top: 1.3rem;
-  font-weight: 400; }
+  font-weight: 400;
+  background-color: transparent;
+  padding: 0 0.3rem; }
+  ._guide--nav-photography:hover {
+    background-color: #fcd602;
+    color: #5a5a5a; }
   @media (min-width: 768px) {
     ._guide--nav-photography {
       right: 7rem; } }
-  ._guide--nav-photography.inactive {
-    color: #aeaeae; }
 
 ._guide--nav-about {
   position: absolute;
   font-weight: 400;
   color: #5a5a5a;
   right: 1rem;
-  top: 1.3rem; }
+  top: 1.3rem;
+  background-color: transparent;
+  padding: 0 0.3rem; }
+  ._guide--nav-about:hover {
+    background-color: #fcd602;
+    color: #5a5a5a; }
   @media (min-width: 768px) {
     ._guide--nav-about {
       right: 2rem; } }
-  ._guide--nav-about.inactive {
-    color: #aeaeae; }
 
 ._guide--page-title {
   font-size: 1.333em;
