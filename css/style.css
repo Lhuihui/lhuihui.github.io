@@ -666,7 +666,8 @@ body {
         margin-right: 4rem; } }
   .header--link {
     color: #5a5a5a;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Helvetica Neue'; }
     .header--link:hover {
       color: #5a5a5a;
       text-decoration: none; }
@@ -788,12 +789,14 @@ body {
     background-color: #e0e0e0; }
 
 .text-title {
-  padding: 2rem 0;
+  padding: 1rem 0 2rem;
   background-color: #fdfdfd;
   cursor: pointer;
   margin-top: 0rem;
   min-height: auto;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: 'Helvetica Neue';
+  color: #464646; }
 
 .portfolio--a {
   color: #41d6c3; }
@@ -1132,6 +1135,7 @@ body {
       margin: 11rem 0 18rem; } }
 
 ._app--personal-des-title {
+  font-family: 'Helvetica Neue';
   font-weight: 700;
   margin-top: 0;
   font-size: 3.05176em;
@@ -1155,7 +1159,7 @@ body {
 
 ._app--selected-work {
   color: #5a5a5a;
-  font-weight: 500; }
+  font-weight: 400; }
 
 .content {
   margin-top: 0rem; }
@@ -1228,7 +1232,7 @@ body {
   color: #5a5a5a;
   right: 13rem;
   top: 1.3rem;
-  font-weight: 500;
+  font-weight: 400;
   background-color: transparent;
   padding: 0 0.3rem; }
   ._guide--nav-work:hover {
@@ -1243,7 +1247,7 @@ body {
   color: #5a5a5a;
   right: 5rem;
   top: 1.3rem;
-  font-weight: 500; }
+  font-weight: 400; }
   @media (min-width: 768px) {
     ._guide--nav-photography {
       right: 7rem; } }
@@ -1252,7 +1256,7 @@ body {
 
 ._guide--nav-about {
   position: absolute;
-  font-weight: 500;
+  font-weight: 400;
   color: #5a5a5a;
   right: 1rem;
   top: 1.3rem; }
@@ -1264,7 +1268,8 @@ body {
 
 ._guide--page-title {
   font-size: 1.333em;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: 'Helvetica Neue'; }
   @media (min-width: 750px) {
     ._guide--page-title {
       font-size: 1.5625em; } }
@@ -1302,7 +1307,8 @@ body {
 ._guide--content-link {
   font-size: 1.25em;
   font-weight: 400;
-  margin-top: 0.66667rem; }
+  margin-top: 0.66667rem;
+  font-family: 'Helvetica Neue'; }
   ._guide--content-link_TEAL {
     color: #00b4a0; }
   ._guide--content-link_BLUE {
@@ -1327,7 +1333,8 @@ body {
   font-weight: 400; }
 
 ._guide--content-session-title {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  font-family: 'Helvetica Neue'; }
   ._guide--content-session-title_TEAL {
     color: #00b4a0; }
   ._guide--content-session-title_ORANGE {
@@ -1470,7 +1477,7 @@ body {
   margin: 2rem auto 0; }
 
 ._guide--case-study-title {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 2rem; }
 
 ._guide--case-study-text {

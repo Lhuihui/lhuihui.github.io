@@ -1,8 +1,10 @@
 .text-title{
-  padding: get('rhythm') 0;
+  padding: get('rhythm') / 2 0 get('rhythm');
   background-color: color('neutral-white', 10);
   cursor: pointer;
   margin-top: 0rem;
   min-height: auto;
   font-weight: get('normal weight font');
+  font-family: 'Helvetica Neue';
+  color: color('gray', 70);
 }
