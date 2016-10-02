@@ -16,4 +16,26 @@
   &--icon-link{
     text-decoration: none;
   }
+
+  &--nav{
+    display: inline-block;
+    font-family: 'helvetica neue';
+    cursor: pointer;
+
+    background-color: transparent;
+    padding: 0 0.3rem;
+
+    &:hover{
+      background-color: #fcd602;
+      color: color('gray', 60);
+    }
+  }
+
+  &--all{
+    margin: get('rhythm');
+  }
+
+  &--a{
+    color: color('gray', 70);
+  }
 }

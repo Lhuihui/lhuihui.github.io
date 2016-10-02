@@ -1110,6 +1110,22 @@ body {
 .footer--icon-link {
   text-decoration: none; }
 
+.footer--nav {
+  display: inline-block;
+  font-family: 'helvetica neue';
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0 0.3rem; }
+  .footer--nav:hover {
+    background-color: #fcd602;
+    color: #5a5a5a; }
+
+.footer--all {
+  margin: 2rem; }
+
+.footer--a {
+  color: #464646; }
+
 ._app--header {
   margin-top: 0rem;
   position: fixed;
