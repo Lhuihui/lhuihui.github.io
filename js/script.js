@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+  $('.content--container').mouseenter(function(e){
+    e.preventDefault();
+    var self = $(this);
+    var titleCoverContainer = $(this).find('.content--title-cover-container');
+
+    titleCoverContainer.css('opacity', 0.9);
+  });
+
+  $('.content--container').mouseleave(function(e){
+    e.preventDefault();
+    var self = $(this);
+    var titleCoverContainer = $(this).find('.content--title-cover-container');
+
+    titleCoverContainer.css('opacity', 0);
+  });
+
   var HeightCalculator = function() {
     if(window.innerWidth < 640 || document.documentElement.clientWidth < 640){
       if(window.innerWidth < document.documentElement.clientWidth)

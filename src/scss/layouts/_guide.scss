@@ -3,10 +3,10 @@
 
   &--new-layout-content{
     margin: $header-height 0;
-    padding: get('rhythm') get('rhythm') / 2;
+    padding: get('rhythm') get('rhythm') / 2 0;
 
     @include breakpoint(768px){
-			padding: get('rhythm') * 2 get('rhythm');
+			padding: get('rhythm') * 2 get('rhythm') 0;
 		}
 
 		@include breakpoint(1200px){
