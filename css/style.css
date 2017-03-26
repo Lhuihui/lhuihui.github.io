@@ -1228,7 +1228,8 @@ body {
   .content--container-two {
     margin-top: 2rem; }
   .content--pattern-lib {
-    width: 50%; }
+    width: 50%;
+    border-right: 1px solid #eaeaea; }
   .content--title-cover-container {
     position: absolute;
     top: 0;
