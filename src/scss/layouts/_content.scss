@@ -1,6 +1,75 @@
 .content {
   margin-top: 0rem;
 
+  &--tile {
+    text-decoration: none;
+    color: #777677;
+  }
+
+  &--new-container {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-top: 2rem;
+
+    @include breakpoint(500px){
+      padding: 3rem;
+    }
+
+    @include breakpoint(600px){
+      padding: 4rem;
+    }
+
+    @include breakpoint(800px){
+      padding: 6rem;
+    }
+  }
+
+  &--new-container-mobile {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-top: 2rem;
+
+    @include breakpoint(500px){
+      padding: 3rem;
+    }
+
+    @include breakpoint(600px){
+      padding: 4rem;
+    }
+
+    @include breakpoint(800px){
+      padding: 2rem 6rem;
+    }
+  }
+
+  &--mobile-cover {
+    height: 30rem;
+  }
+
+  &--mobile-cover-one-in-two {
+    height: 30rem;
+
+    @include breakpoint(635px) {
+      margin-right: 1rem;
+    }
+  }
+
+  &--mobile-cover-two-in-two {
+    height: 30rem;
+
+    @include breakpoint(635px) {
+      margin-left: 1rem;
+    }
+  }
+
+  &--new-title {
+    text-align: center;
+  }
+
   &--link{
     cursor: pointer;
     color: color('gray', 90);
@@ -98,4 +167,191 @@
     color: color('gray', 40);
   }
 
+}
+
+.loader-container {
+  display: inline-block;
+  width: 5.625rem;
+  height: 5.625rem;
+
+  &_small {
+    width: 2.8125rem;
+    height: 2.8125rem;
+  }
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  transform: translateZ(0) rotate(300deg);
+  transform-origin: 25px 25px;
+  transform-origin: center center;
+  animation: b 4s ease-out infinite;
+
+  &--path {
+    stroke-dasharray: 125px;
+    stroke-dashoffset: 9.7px;
+    r: 20px;
+    cx: 50px;
+    cy: 50px;
+    fill: transparent;
+    stroke: color('purple', 50);
+    stroke-width: 4.65116px;
+    stroke-linecap: butt;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(.5, .08, 0, 1);
+    transition: stroke-dashoffset 1s cubic-bezier(.5, .08, 0, 1);
+    -webkit-animation: a 4s ease-out infinite;
+    animation: a 4s ease-out infinite;
+  }
+}
+
+@keyframes a {
+  0% {
+    stroke-dashoffset: 9.7px;
+  }
+
+  60% {
+    stroke-dashoffset: 113.52px;
+  }
+
+  to {
+    stroke-dashoffset: 9.7px;
+  }
+}
+
+@keyframes b {
+  0% {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(1320deg);
+    transform: rotate(1320deg);
+  }
+
+  to {
+    -webkit-transform: rotate(2100deg);
+    transform: rotate(2100deg);
+  }
+}
+
+/* http://prismjs.com/download.html?themes=prism&languages=markup+clike+javascript+jsx */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+pre[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+pre[class*="language-"] ::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"] ::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: color('gray', 50);
+}
+
+.token.punctuation {
+  color: color('gray', 50);
+}
+
+.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: color('purple', 50);
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: color('magenta', 50);
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #a67f59;
+  background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: color('teal', 40);
+}
+
+.token.function {
+  color: #dd4a68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #e90;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+/* Custom prism rules for the Relay docs */
+.prism + .prism {
+  margin-top: -15px;
+}
+
+/* Line highlighting */
+.prism {
+  position: relative;
+}
+
+.line-highlight {
+  background: rgba(75, 145, 80, 0.15);
+  left: 0;
+  line-height: inherit;
+  margin-top: 5px;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
 }

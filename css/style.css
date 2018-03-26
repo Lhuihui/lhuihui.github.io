@@ -1180,6 +1180,53 @@ body {
 
 .content {
   margin-top: 0rem; }
+  .content--tile {
+    text-decoration: none;
+    color: #777677; }
+  .content--new-container {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-top: 2rem; }
+    @media (min-width: 500px) {
+      .content--new-container {
+        padding: 3rem; } }
+    @media (min-width: 600px) {
+      .content--new-container {
+        padding: 4rem; } }
+    @media (min-width: 800px) {
+      .content--new-container {
+        padding: 6rem; } }
+  .content--new-container-mobile {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-top: 2rem; }
+    @media (min-width: 500px) {
+      .content--new-container-mobile {
+        padding: 3rem; } }
+    @media (min-width: 600px) {
+      .content--new-container-mobile {
+        padding: 4rem; } }
+    @media (min-width: 800px) {
+      .content--new-container-mobile {
+        padding: 2rem 6rem; } }
+  .content--mobile-cover {
+    height: 30rem; }
+  .content--mobile-cover-one-in-two {
+    height: 30rem; }
+    @media (min-width: 635px) {
+      .content--mobile-cover-one-in-two {
+        margin-right: 1rem; } }
+  .content--mobile-cover-two-in-two {
+    height: 30rem; }
+    @media (min-width: 635px) {
+      .content--mobile-cover-two-in-two {
+        margin-left: 1rem; } }
+  .content--new-title {
+    text-align: center; }
   .content--link {
     cursor: pointer;
     color: #121212;
@@ -1253,6 +1300,180 @@ body {
     color: #121212; }
   .content--title-role {
     color: #959595; }
+
+.loader-container {
+  display: inline-block;
+  width: 5.625rem;
+  height: 5.625rem; }
+  .loader-container_small {
+    width: 2.8125rem;
+    height: 2.8125rem; }
+
+.loader {
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translateZ(0) rotate(300deg);
+          transform: translateZ(0) rotate(300deg);
+  -webkit-transform-origin: 25px 25px;
+          transform-origin: 25px 25px;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-animation: b 4s ease-out infinite;
+          animation: b 4s ease-out infinite; }
+  .loader--path {
+    stroke-dasharray: 125px;
+    stroke-dashoffset: 9.7px;
+    r: 20px;
+    cx: 50px;
+    cy: 50px;
+    fill: transparent;
+    stroke: #9855d4;
+    stroke-width: 4.65116px;
+    stroke-linecap: butt;
+    -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.5, 0.08, 0, 1);
+    transition: stroke-dashoffset 1s cubic-bezier(0.5, 0.08, 0, 1);
+    -webkit-animation: a 4s ease-out infinite;
+    animation: a 4s ease-out infinite; }
+
+@-webkit-keyframes a {
+  0% {
+    stroke-dashoffset: 9.7px; }
+  60% {
+    stroke-dashoffset: 113.52px; }
+  to {
+    stroke-dashoffset: 9.7px; } }
+
+@keyframes a {
+  0% {
+    stroke-dashoffset: 9.7px; }
+  60% {
+    stroke-dashoffset: 113.52px; }
+  to {
+    stroke-dashoffset: 9.7px; } }
+
+@-webkit-keyframes b {
+  0% {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg); }
+  60% {
+    -webkit-transform: rotate(1320deg);
+    transform: rotate(1320deg); }
+  to {
+    -webkit-transform: rotate(2100deg);
+    transform: rotate(2100deg); } }
+
+@keyframes b {
+  0% {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg); }
+  60% {
+    -webkit-transform: rotate(1320deg);
+    transform: rotate(1320deg); }
+  to {
+    -webkit-transform: rotate(2100deg);
+    transform: rotate(2100deg); } }
+
+/* http://prismjs.com/download.html?themes=prism&languages=markup+clike+javascript+jsx */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+pre[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc; }
+
+pre[class*="language-"] ::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"] ::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc; }
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: 0.1em;
+  border-radius: 0.3em; }
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #777677; }
+
+.token.punctuation {
+  color: #777677; }
+
+.namespace {
+  opacity: 0.7; }
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #9855d4; }
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #db2780; }
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #a67f59;
+  background: rgba(255, 255, 255, 0.5); }
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #00b4a0; }
+
+.token.function {
+  color: #dd4a68; }
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #e90; }
+
+.token.important,
+.token.bold {
+  font-weight: bold; }
+
+.token.italic {
+  font-style: italic; }
+
+.token.entity {
+  cursor: help; }
+
+/* Custom prism rules for the Relay docs */
+.prism + .prism {
+  margin-top: -15px; }
+
+/* Line highlighting */
+.prism {
+  position: relative; }
+
+.line-highlight {
+  background: rgba(75, 145, 80, 0.15);
+  left: 0;
+  line-height: inherit;
+  margin-top: 5px;
+  pointer-events: none;
+  position: absolute;
+  right: 0; }
 
 ._guide--new-layout-content {
   margin: 4rem 0;
