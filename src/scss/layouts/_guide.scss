@@ -24,6 +24,10 @@
 		}
   }
 
+  &--mobile-pic {
+    width: 300px;
+  }
+
   &--header{
     margin-top: 0rem;
     top: 0rem;
@@ -242,6 +246,10 @@
     }
   }
 
+  &--desktop-card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
   &--text{
     font-size: ms(-3);
     color: color('gray', 80);
@@ -386,6 +394,14 @@
 
   &--two-of-one-container{
     @include breakpoint(700px){
+      @include divisions(2);
+      padding-right: get('rhythm') / 2;
+    };
+  }
+
+  &--two-of-one-container-mobile{
+    @include breakpoint(700px){
+      text-align: right;
       @include divisions(2);
       padding-right: get('rhythm') / 2;
     };
