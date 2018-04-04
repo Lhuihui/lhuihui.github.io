@@ -11,7 +11,7 @@
     padding: 2rem;
     background-color: #f6f6f6;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 
     @include breakpoint(500px){
       padding: 3rem;
@@ -31,7 +31,7 @@
     padding: 2rem;
     background-color: #f6f6f6;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 
     @include breakpoint(500px){
       padding: 3rem;
@@ -67,6 +67,13 @@
   }
 
   &--new-title {
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1.2rem;
+    color: #777677;
+  }
+
+  &--new-des {
     text-align: center;
   }
 

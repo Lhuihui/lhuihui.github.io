@@ -1152,7 +1152,7 @@ body {
       margin: 11rem 0 18rem; } }
 
 ._app--personal-des-title {
-  font-family: 'Helvetica Neue';
+  font-family: 'Lora';
   font-weight: 700;
   margin-top: 0;
   font-size: 3.05176em;
@@ -1188,7 +1188,7 @@ body {
     padding: 2rem;
     background-color: #f6f6f6;
     text-align: center;
-    margin-top: 2rem; }
+    margin-top: 4rem; }
     @media (min-width: 500px) {
       .content--new-container {
         padding: 3rem; } }
@@ -1203,7 +1203,7 @@ body {
     padding: 2rem;
     background-color: #f6f6f6;
     text-align: center;
-    margin-top: 2rem; }
+    margin-top: 4rem; }
     @media (min-width: 500px) {
       .content--new-container-mobile {
         padding: 3rem; } }
@@ -1226,6 +1226,11 @@ body {
       .content--mobile-cover-two-in-two {
         margin-left: 1rem; } }
   .content--new-title {
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 1.2rem;
+    color: #777677; }
+  .content--new-des {
     text-align: center; }
   .content--link {
     cursor: pointer;
