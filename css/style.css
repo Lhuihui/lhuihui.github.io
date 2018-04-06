@@ -2001,3 +2001,11 @@ code[class*="language-"] ::selection {
 
 ._about--gpa {
   margin-right: 1rem; }
+
+._homepage--two-column {
+  width: calc(50% - 1rem);
+  margin-right: 2rem;
+  display: block;
+  float: left; }
+  ._homepage--two-column:nth-of-type(2n) {
+    margin-right: 0rem; }
