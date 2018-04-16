@@ -1152,7 +1152,7 @@ body {
       margin: 11rem 0 18rem; } }
 
 ._app--personal-des-title {
-  font-family: 'Lora';
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 700;
   margin-top: 0;
   font-size: 3.05176em;
@@ -1227,7 +1227,7 @@ body {
         margin-left: 1rem; } }
   .content--new-title {
     text-align: center;
-    font-family: 'Lora';
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1.2rem;
     color: #777677; }
   .content--new-des {
