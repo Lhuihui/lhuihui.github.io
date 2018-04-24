@@ -1,0 +1,150 @@
+._work {
+  &--body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  &--tag {
+    height: 5px;
+    width: 30%;
+  }
+
+  &--tag-BLUE {
+    background-color: #03A9F4;
+  }
+
+  &--tag-PURPLE {
+    background-color: #B07CE8;
+  }
+
+  &--tile-container{
+    padding: get('rhythm') 0;
+
+    @include breakpoint(768px){
+			padding: get('rhythm') * 2 get('rhythm');
+		}
+
+		@include breakpoint(1200px){
+			width: 1200px;
+			margin: 0 auto;
+		}
+  }
+
+  &--new-container {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-top: 0;
+
+    &:nth-child(1) {
+      margin-top: 4rem;
+    }
+  }
+
+  &--new-container-GREY {
+    background-color: #f6f6f6;
+  }
+
+  &--title {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  &--tile-two-grid {
+    @include breakpoint(768px){
+			@include divisions(2, 1rem);
+
+      &:nth-child(2) {
+        margin-top: 0;
+      }
+		}
+  }
+
+  &--time {
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  &--position {
+    margin-top: 0;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  &--des {
+     margin-top: 0;
+     line-height: 36px;
+     color: rgba(0, 0, 0, 0.54);
+     font-size: 1.2rem;
+  }
+
+  &--img {
+    margin-top: 2rem;
+
+    @include breakpoint(768px) {
+      margin-top: 0;
+    }
+  }
+
+  &--btn {
+    margin-top: 2rem;
+    text-decoration: none;
+  }
+
+  &--btn-INSIDE {
+    display: none;
+
+    @include breakpoint(768px) {
+      display: inline-block;
+    }
+  }
+
+  &--btn-OUTSIDE {
+    display: inline-block;
+
+    @include breakpoint(768px) {
+      display: none;
+    }
+  }
+
+  &--personal-des-text{
+    font-weight: 300;
+    margin-top: 0;
+    font-size: ms(2);
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.54);
+    max-width: 49rem;
+  }
+
+  &--btn-PURPLE {
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    color: #7732bb;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #9753e1;
+
+    &:hover,
+    &:focus {
+      color: get('white');
+      background-color: #9753e1;
+    }
+  }
+
+  &--footer {
+    margin-top: 0;
+    background-color: #232323;
+    font-size: ms(-1);
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 1rem 0;
+    text-align: center;
+
+    a {
+      color: rgba(255, 255, 255, 0.87);
+      cursor: pointer;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+  }
+
+
+}

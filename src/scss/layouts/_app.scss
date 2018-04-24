@@ -1,4 +1,8 @@
 ._app {
+  &--body {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
   $header-height: 4rem;
   &--header {
     margin-top: 0rem;
@@ -31,9 +35,9 @@
 
   &--personal-des-title{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: get('bold weight font');
+    font-weight: 600;
     margin-top: 0;
-    font-size: ms(8);
+    font-size: ms(7);
     line-height: 1.3;
     color: color('gray', 90);
 
@@ -48,7 +52,7 @@
     font-size: ms(2);
     line-height: 1.3;
     color: color('gray', 40);
-    max-width: 51rem;
+    max-width: 50rem;
   }
 
   &--container{

@@ -1,9 +1,10 @@
-@mixin base--button($color: color('teal', 60), $background: transparent, $border: color('teal', 30), $block: false) {
+@mixin base--button($color: #0288D1, $background: transparent, $border: #03A9F4, $block: false) {
+  border-radius: 10px;
   padding: 0.5em 1em;
   color: $color;
-  font-weight: bold;
+  font-weight: 400;
   background-color: $background;
-  border: 2px solid $border;
+  border: 1px solid $border;
 
   @if $block {
     display: block;
@@ -40,5 +41,13 @@
   &:focus,
   &:hover {
     @include base--button($background: color('orange', 70), $border: color('orange', 70));
+  }
+}
+
+@mixin base--button_purple() {
+  @include base--button($color: white, $background: color('purple', 60), $border: color('purple', 50));
+  &:focus,
+  &:hover {
+    @include base--button($background: color('purple', 50), $border: color('purple', 50));
   }
 }
