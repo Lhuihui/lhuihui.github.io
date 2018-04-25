@@ -2192,8 +2192,14 @@ code[class*="language-"] ::selection {
 ._work--tag-BLUE {
   background-color: #03A9F4; }
 
+._work--tag-DARK-BLUE {
+  background-color: #175D8D; }
+
 ._work--tag-PURPLE {
   background-color: #B07CE8; }
+
+._work--tag-TEAL {
+  background-color: #00baa1; }
 
 ._work--tile-container {
   padding: 2rem 0; }
@@ -2285,6 +2291,17 @@ code[class*="language-"] ::selection {
     color: #fff;
     background-color: #9753e1; }
 
+._work--btn-TEAL {
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  color: #008673;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #00baa1; }
+  ._work--btn-TEAL:hover, ._work--btn-TEAL:focus {
+    color: #fff;
+    background-color: #00baa1; }
+
 ._work--footer {
   margin-top: 0;
   background-color: #232323;
@@ -2298,3 +2315,7 @@ code[class*="language-"] ::selection {
     cursor: pointer;
     text-decoration: none;
     margin: 0 1rem; }
+
+._work--coming-soon {
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 2rem; }
