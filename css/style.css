@@ -1696,6 +1696,11 @@ code[class*="language-"] ::selection {
   font-size: 1.5625em;
   color: rgba(0, 0, 0, 0.87); }
 
+.content2018--second-title {
+  margin-top: 2rem;
+  font-size: 1.25em;
+  color: rgba(0, 0, 0, 0.87); }
+
 ._guide--new-layout-content {
   margin: 4rem 0;
   padding: 2rem 1rem 0; }
