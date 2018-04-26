@@ -1500,6 +1500,14 @@ code[class*="language-"] ::selection {
       width: 1200px;
       margin: 80px auto; } }
 
+.content2018--center-container {
+  width: 100%;
+  padding: 0px 1rem; }
+  @media (min-width: 900px) {
+    .content2018--center-container {
+      width: 830px;
+      margin: 80px auto 2rem; } }
+
 .content2018--title-section {
   margin-top: 64px; }
 
@@ -1602,11 +1610,15 @@ code[class*="language-"] ::selection {
   margin-top: 0; }
 
 .content2018--title-text {
-  font-size: 36px; }
+  font-size: 30px; }
 
 .content2018--description-text {
-  font-size: 20px;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.54); }
+
+.content2018--description-title-text {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.87); }
 
 .content2018--subtitle-text {
   color: rgba(0, 0, 0, 0.54); }
@@ -1650,6 +1662,39 @@ code[class*="language-"] ::selection {
 
 .content2018--material-shadow {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+
+.content2018--light-shadow {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16); }
+
+.content2018--intro-section {
+  background-color: #595859; }
+
+.content2018--image-container {
+  text-align: center; }
+
+.content2018--image-title {
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.8em;
+  font-family: 'IBM Plex Mono', monospace; }
+
+.content2018--two-section {
+  width: calc(50% - 1rem);
+  margin-right: 2rem;
+  display: block;
+  float: left; }
+  .content2018--two-section:nth-of-type(2n) {
+    margin-right: 0rem; }
+  .content2018--two-section:nth-child(2) {
+    margin-top: 0; }
+
+.content2018--cool-grey-container {
+  padding: 4rem 2rem;
+  background-color: #f4f7f7; }
+
+.content2018--sub-title {
+  font-size: 1.5625em;
+  color: rgba(0, 0, 0, 0.87); }
 
 ._guide--new-layout-content {
   margin: 4rem 0;
