@@ -137,6 +137,21 @@
     }
   }
 
+  &--btn-DARK-BLUE {
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    color: #175D8D;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #175D8D;
+
+    &:hover,
+    &:focus {
+      color: get('white');
+      background-color: #175D8D;
+    }
+  }
+
   &--btn-TEAL {
     border-radius: 10px;
     padding: 0.5em 1em;

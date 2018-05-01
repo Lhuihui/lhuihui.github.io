@@ -2341,6 +2341,17 @@ code[class*="language-"] ::selection {
     color: #fff;
     background-color: #9753e1; }
 
+._work--btn-DARK-BLUE {
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  color: #175D8D;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid #175D8D; }
+  ._work--btn-DARK-BLUE:hover, ._work--btn-DARK-BLUE:focus {
+    color: #fff;
+    background-color: #175D8D; }
+
 ._work--btn-TEAL {
   border-radius: 10px;
   padding: 0.5em 1em;
