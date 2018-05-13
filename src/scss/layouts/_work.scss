@@ -187,6 +187,10 @@
   &--coming-soon {
     color: rgba(0, 0, 0, 0.54);
     margin-top: 2rem;
+
+    @include breakpoint(768px) {
+      margin-top: 4rem;
+    }
   }
 
 

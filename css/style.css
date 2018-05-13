@@ -2380,3 +2380,6 @@ code[class*="language-"] ::selection {
 ._work--coming-soon {
   color: rgba(0, 0, 0, 0.54);
   margin-top: 2rem; }
+  @media (min-width: 768px) {
+    ._work--coming-soon {
+      margin-top: 4rem; } }
