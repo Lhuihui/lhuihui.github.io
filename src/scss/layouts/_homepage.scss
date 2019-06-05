@@ -1,0 +1,5 @@
+._homepage {
+  &--two-column {
+    @include divisions(2, 2rem);
+  }
+}

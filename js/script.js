@@ -16,6 +16,25 @@ $(document).ready(function() {
     titleCoverContainer.css('opacity', 0);
   });
 
+  //google analytic event tracking
+  $('.header--link-work').click(function(){
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Work Tab',
+        eventAction: 'click',
+        eventLabel: 'Navigation'
+      });
+  });
+
+  $('.header--link-resume').click(function(){
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'Resume Tab',
+        eventAction: 'click',
+        eventLabel: 'Navigation'
+      });
+  });
+
   var HeightCalculator = function() {
     if(window.innerWidth < 640 || document.documentElement.clientWidth < 640){
       if(window.innerWidth < document.documentElement.clientWidth)
@@ -71,28 +90,6 @@ $(document).ready(function() {
   function scrollTo($element) {
     $('html, body').animate({ scrollTop: $($element).height() }, 1000);
   }
-
-  // function squarify(DOMElement) {
-  //   var width = $(DOMElement)[0].getBoundingClientRect().width;
-  //   $(DOMElement).css('height', width + 'px');
-  // }
-  //
-  // function rectanglify(DOMElement) {
-  //   var width = $(DOMElement)[0].getBoundingClientRect().width;
-  //   $(DOMElement).css('height', width / 2 + 'px');
-  // }
-  //
-  // function updateSquares() {
-  //   $('.js-square').each(function() {
-  //     squarify(this);
-  //   });
-  // }
-  //
-  // function updateRectangles() {
-  //   $('.js-rectangle').each(function() {
-  //     rectanglify(this);
-  //   });
-  // }
 
   var heights = new HeightCalculator();
 
